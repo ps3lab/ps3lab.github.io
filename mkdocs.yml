@@ -1,5 +1,9 @@
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - navigation.expand
+    - navigation.tracking
 
 site_name: PSU Security Lab
 site_url: http://tbd
@@ -8,4 +12,4 @@ nav:
     - Home: index.md
     - Publications: publications.md
     - Fundings: fundings.md
-    - contact: contact.md
+    - Contact: contact.md
