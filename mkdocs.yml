@@ -4,6 +4,11 @@ theme:
     - navigation.tabs
     - navigation.expand
     - navigation.tracking
+    - toc.integrate
+    - toc.follow
+markdown_extensions:
+  - toc:
+      permalink: true
 
 site_name: PennState System Security Lab
 site_url: https://ps3lab.github.io/

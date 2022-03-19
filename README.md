@@ -2,15 +2,16 @@
 
 ## Dev Workflow
 
+!!! Do not manually update any files under src/generated/*
+
 ### 0. Prerequistes
 
-- Docker
 - Python 3.x
 
 
 ### 1. Install dependencies
 ```bash
-$ pip install mkdocs-material
+$ pip3 install -r requirements.txt
 ```
 
 ### 2. Run website locally and update content (src/*.md)
@@ -23,7 +24,7 @@ $ mkdocs serve
 ```bash
 
 # required only if you update the *.bib file
-$ ./run-pandoc.sh
+$ ./scripts/gen-pub.py
 
 # always required
 $ ./build.sh
