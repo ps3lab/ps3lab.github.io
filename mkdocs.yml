@@ -5,11 +5,12 @@ theme:
     - navigation.expand
     - navigation.tracking
 
-site_name: PSU System Security Lab
-site_url: http://tbd
+site_name: PennState System Security Lab
+site_url: https://ps3lab.github.io/
 docs_dir: src
 nav:
     - Home: index.md
+    - People: people.md
     - Publications: publications.md
     - Fundings: fundings.md
     - Contact: contact.md
