@@ -1,0 +1,474 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://ps3lab.github.io/generated/publications/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.2.5">
+    
+    
+      
+        <title>Publications - PennState System Security Lab</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2d9f7617.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="PennState System Security Lab" class="md-header__button md-logo" aria-label="PennState System Security Lab" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            PennState System Security Lab
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Publications
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../people/" class="md-tabs__link">
+      People
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="./" class="md-tabs__link md-tabs__link--active">
+      Publications
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../fundings/" class="md-tabs__link">
+      Fundings
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../contact/" class="md-tabs__link">
+      Contact
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="PennState System Security Lab" class="md-nav__button md-logo" aria-label="PennState System Security Lab" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    PennState System Security Lab
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../people/" class="md-nav__link">
+        People
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Publications
+      </a>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fundings/" class="md-nav__link">
+        Fundings
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        Contact
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+  <h1>Publications</h1>
+
+<p>Chen, Libo, Yanhao Wang, Quanpu Cai, Yunfan Zhan, Hong Hu, Jiaqi Linghu,
+Qinsheng Hou, Chao Zhang, Haixin Duan, and Zhi Xue. 2021. “<span
+class="nocase">Sharing More and Checking Less: Leaveraging Common Input
+Keywords to Detect Bugs in Embedded Systems</span>.” In <em>Proceedings of
+the 30th USENIX Security Symposium (USENIX 2021)</em>. Vancouver, B.C.,
+Canada.</p>
+<p>Chen, Yongheng, Rui Zhong, Hong Hu, Hangfan Zhang, Yupeng Yang, Dinghao
+Wu, and Wenke Lee. 2021. “<span class="nocase">One Engine to Fuzz ’em
+All: Generic Language Processor Testing with Semantic
+Validation</span>.” In <em>Proceedings of the 42nd IEEE Symposium on
+Security and Privacy (Oakland 2021)</em>. San Francisco, CA.</p>
+<p>Ding*, Ren, Hong Hu*, Wen Xu, and Taesoo Kim. 2020. “<span
+class="nocase">DESENSITIZATION: Privacy-Aware and Attack-Preserving
+Crash Report</span>.” In <em>Proceedings of the 27th Annual Network and
+Distributed System Security Symposium (NDSS 2020)</em>. San Diego, CA.</p>
+<p>He*, Liang, Hong Hu*, Purui Su, Yan Cai, and Zhenkai Liang. 2022.
+“<span class="nocase">FreeWill: Automatically Diagnosing Use-after-free
+Bugs via Reference Miscounting Detection on Binaries (To
+Appear)</span>.” In <em>Proceedings of the 31st USENIX Security Symposium
+(USENIX 2022)</em>. Boston, MA.</p>
+<p>Jung, Jinho, Hong Hu, Joy Arulraj, Taesoo Kim, and Woonhak Kang. 2020.
+“<span class="nocase">APOLLO: Automatic Detection and Diagnosis of
+Performance Regressions in Database Systems</span>.” In <em>Proceedings of
+the 46th International Conference on Very Large Data Bases (VLDB 2020)</em>.
+Tokyo, Japan.</p>
+<p>Jung, Jinho, Stephen Tong, Hong Hu, Jungwon Lim, Yonghwi Jin, and Taesoo
+Kim. 2021. “<span class="nocase">WINNIE: Fuzzing Windows Applications
+with Harness Synthesis and Fast Cloning</span>.” In <em>Proceedings of the
+28th Annual Network and Distributed System Security Symposium (NDSS
+2021)</em>. Virtual.</p>
+<p>Liu, Ziheng, Shihao Xia, Yu Liang, Linhai Song, and Hong Hu. 2022.
+“<span class="nocase">Who Goes First? Detecting Go Concurrency Bugs via
+Message Reordering</span>.” In <em>Proceedings of the 27th International
+Conference on Architectural Support for Programming Languages and
+Operating Systems (ASPLOS 2022)</em>. Lausanne, Switzerland.</p>
+<p>Park, Kyuhong, Burak Sahin, Yongheng Chen, Jisheng Zhao, Evan Downing,
+Hong Hu, and Wenke Lee. 2021. “<span class="nocase">Identifying Behavior
+Dispatchers for Malware Analysis</span>.” In <em>Proceedings of the 16th
+ACM ASIA Conference on Computer and Communications Security (AsiaCCS
+2021)</em>. Hong Kong, China.</p>
+<p>Wickman, Brian, Hong Hu, Insu Yun, Daehee Jang, JungWon Lim, Sanidhya
+Kashyap, and Taesoo Kim. 2021. “<span class="nocase">Preventing
+Use-After-Free Attacks with Fast Forward Allocation</span>.” In
+<em>Proceedings of the 30th USENIX Security Symposium (USENIX 2021)</em>.
+Vancouver, B.C., Canada.</p>
+<p>Xiao, Feng, Jianwei Huang, Yichang Xiong, Guangliang Yang, Hong Hu,
+Guofei Gu, and Wenke Lee. 2021. “<span class="nocase">Abusing Hidden
+Properties to Attack the Node.js Ecosystem</span>.” In <em>Proceedings of
+the 30th USENIX Security Symposium (USENIX 2021)</em>. Vancouver, B.C.,
+Canada.</p>
+<p>Xu, Peng, Yanhao Wang, Hong Hu, and Purui Su. 2022. “<span
+class="nocase">Cooper: Testing the Binding Code of Scripting Languages
+with Cooperative Mutation (To Appear)</span>.” In <em>Proceedings of the
+29th Annual Network and Distributed System Security Symposium (NDSS
+2022)</em>. San Diego, CA.</p>
+<p>Zhong, Rui, Yongheng Chen, Hong Hu, Hangfan Zhang, Wenke Lee, and
+Dinghao Wu. 2020. “<span class="nocase">SQUIRREL: Testing Database
+Management Systems with Language Validity and Coverage Feedback</span>.”
+In <em>Proceedings of the 27th ACM Conference on Computer and
+Communications Security (CCS 2020)</em>. Orlando, USA.</p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../../people/" class="md-footer__link md-footer__link--prev" aria-label="Previous: People" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              People
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../fundings/" class="md-footer__link md-footer__link--next" aria-label="Next: Fundings" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Fundings
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.expand", "navigation.tracking"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.bd0b6b67.min.js"}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.467223ff.min.js"></script>
+      
+    
+  </body>
+</html>
