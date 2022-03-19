@@ -5,7 +5,7 @@ theme:
     - navigation.expand
     - navigation.tracking
 
-site_name: PSU Security Lab
+site_name: PSU System Security Lab
 site_url: http://tbd
 docs_dir: src
 nav:
