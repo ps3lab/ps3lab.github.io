@@ -11,6 +11,6 @@ docs_dir: src
 nav:
     - Home: index.md
     - People: people.md
-    - Publications: publications.md
+    - Publications: generated/publications.md
     - Fundings: fundings.md
     - Contact: contact.md
