@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 import bibtexparser
+import os
+import copy
 
 
 # FIXME: should we also sort by month?
@@ -39,18 +41,38 @@ def format_author(s:str):
     prev_authors = authors[:len(authors)-1]
     return ", ".join(prev_authors) + " and " + authors[-1]
 
-def format_abstract(s:str):
+def format_in_detail(s:str):
     return "\n        \n        ".join(s.split("\n"))
 
+def get_paper_filepath(e):
+    bib_id = e["ID"]
+    return f"src/assets/pp/{bib_id}.pdf"
+
+def get_paper_url(e):
+    bib_id = e["ID"]
+    return f"/assets/pp/{bib_id}.pdf"
+
+def bib_to_str(e):
+    writer = bibtexparser.bwriter.BibTexWriter()
+    db = bibtexparser.bibdatabase.BibDatabase()
+    copy_e = copy.deepcopy(e)
+    copy_e.pop('abstract', None)
+    db.entries = [copy_e]
+    return writer.write(db)
 def bibentry_to_str(e):
     md = f"""
 - ** {resolve_bucket(e["title"])} **
-    {format_author(e["author"])}<br>
-    In *{e["booktitle"]}*<br>
+    {format_author(e["author"])}
+
+    In *{e["booktitle"]}*
 """
     if "www-url" in e:
         url = e["www-url"]
-        md += f"[:link:]({url})"
+        md += f"[:octicons-link-16:]({url})"
+    
+    paper_fp = get_paper_filepath(e)
+    if os.path.exists(paper_fp):
+        md += f"[:octicons-file-16:]({get_paper_url(e)})"
     
     if "abstract" in e:
         abstract = e["abstract"]
@@ -58,8 +80,17 @@ def bibentry_to_str(e):
 
     ??? Abstract
 
-        {format_abstract(abstract)}
-"""
+        {format_in_detail(abstract)}
+        """
+
+    md += f"""
+    
+    ??? BibTeX
+
+        ```
+        {format_in_detail(bib_to_str(e))}
+        ```
+    """
     return md
 
 
