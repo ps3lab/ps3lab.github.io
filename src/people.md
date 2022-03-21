@@ -1,9 +1,9 @@
-# Leaders
+## Leaders
 
 * [Linhai Song](https://songlh.github.io/)
 * [Hong Hu](https://huhong789.github.io/)
 
-# Graduate Students
+## Graduate Students
 
 * [Shuofei Zhu](https://personal.psu.edu/suz305/)
 * [Yu Liang](https://steveleungyl.github.io/)
@@ -13,4 +13,4 @@
 
 [//]: # (Undergraduate Students)
 
-# Alumni
+## Alumni
