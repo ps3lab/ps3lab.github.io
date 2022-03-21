@@ -70,6 +70,7 @@ def bib_to_str(e):
 def bibentry_to_str(e):
     md = f"""
 - ** {resolve_bucket(e["title"])} **
+
     {format_author(e["author"])}
 
     In *{e["booktitle"]}*
