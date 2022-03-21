@@ -1,29 +1,65 @@
 
 ## 2022
 
-Liang He and Hong Hu and Purui Su and Yan Cai and Zhenkai Liang. 2022. "<span class="nocase">FreeWill: Automatically Diagnosing Use-after-free Bugs via Reference Miscounting Detection on Binaries (To Appear)</span>." In *Proceedings of the 31st USENIX Security Symposium (USENIX 2022)*. Boston, MA  
+- ** FreeWill: Automatically Diagnosing Use-after-free Bugs via Reference Miscounting Detection on Binaries (To Appear) **
+
+    Liang He, Hong Hu, Purui Su, Yan Cai and Zhenkai Liang
+
+    In *Proceedings of the 31st USENIX Security Symposium (USENIX 2022)* 
 
 
-Peng Xu and Yanhao Wang and Hong Hu and Purui Su. 2022. "<span class="nocase">Cooper: Testing the Binding Code of Scripting Languages with Cooperative Mutation (To Appear)</span>." In *Proceedings of the 29th Annual Network and Distributed System Security Symposium (NDSS 2022)*. San Diego, CA  
+- ** Cooper: Testing the Binding Code of Scripting Languages with Cooperative Mutation (To Appear) **
+
+    Peng Xu, Yanhao Wang, Hong Hu and Purui Su
+
+    In *Proceedings of the 29th Annual Network and Distributed System Security Symposium (NDSS 2022)* 
 
 
-Ziheng Liu and Shihao Xia and Yu Liang and Linhai Song and Hong Hu. 2022. "<span class="nocase">Who Goes First? Detecting Go Concurrency Bugs via Message Reordering</span>." In *Proceedings of the 27th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2022)*. Lausanne, Switzerland  
+- ** Who Goes First? Detecting Go Concurrency Bugs via Message Reordering **
+
+    Ziheng Liu, Shihao Xia, Yu Liang, Linhai Song and Hong Hu
+
+    In *Proceedings of the 27th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2022)* 
 
 ## 2021
 
-Kyuhong Park and Burak Sahin and Yongheng Chen and Jisheng Zhao and Evan Downing and Hong Hu and Wenke Lee. 2021. "<span class="nocase">Identifying Behavior Dispatchers for Malware Analysis</span>." In *Proceedings of the 16th ACM ASIA Conference on Computer and Communications Security (AsiaCCS 2021)*. Hong Kong, China  
+- ** Identifying Behavior Dispatchers for Malware Analysis **
+
+    Kyuhong Park, Burak Sahin, Yongheng Chen, Jisheng Zhao, Evan Downing, Hong Hu and Wenke Lee
+
+    In *Proceedings of the 16th ACM ASIA Conference on Computer and Communications Security (AsiaCCS 2021)* 
 
 
-Libo Chen and Yanhao Wang and Quanpu Cai and Yunfan Zhan and Hong Hu and Jiaqi Linghu and Qinsheng Hou and Chao Zhang and Haixin Duan and Zhi Xue. 2021. "<span class="nocase">Sharing More and Checking Less: Leaveraging Common Input Keywords to Detect Bugs in Embedded Systems</span>." In *Proceedings of the 30th USENIX Security Symposium (USENIX 2021)*. Vancouver, B.C., Canada  
+- ** Sharing More and Checking Less: Leaveraging Common Input Keywords to Detect Bugs in Embedded Systems **
+
+    Libo Chen, Yanhao Wang, Quanpu Cai, Yunfan Zhan, Hong Hu, Jiaqi Linghu, Qinsheng Hou, Chao Zhang, Haixin Duan and Zhi Xue
+
+    In *Proceedings of the 30th USENIX Security Symposium (USENIX 2021)* 
 
 
-Feng Xiao and Jianwei Huang and Yichang Xiong and Guangliang Yang and Hong Hu and Guofei Gu and Wenke Lee. 2021. "<span class="nocase">Abusing Hidden Properties to Attack the Node.js Ecosystem</span>." In *Proceedings of the 30th USENIX Security Symposium (USENIX 2021)*. Vancouver, B.C., Canada  
+- ** Abusing Hidden Properties to Attack the Node.js Ecosystem **
+
+    Feng Xiao, Jianwei Huang, Yichang Xiong, Guangliang Yang, Hong Hu, Guofei Gu and Wenke Lee
+
+    In *Proceedings of the 30th USENIX Security Symposium (USENIX 2021)* 
 
 
-Brian Wickman and Hong Hu and Insu Yun and Daehee Jang and JungWon Lim and Sanidhya Kashyap and Taesoo Kim. 2021. "<span class="nocase">Preventing Use-After-Free Attacks with Fast Forward Allocation</span>." In *Proceedings of the 30th USENIX Security Symposium (USENIX 2021)*. Vancouver, B.C., Canada  
+- ** Preventing Use-After-Free Attacks with Fast Forward Allocation **
+
+    Brian Wickman, Hong Hu, Insu Yun, Daehee Jang, JungWon Lim, Sanidhya Kashyap and Taesoo Kim
+
+    In *Proceedings of the 30th USENIX Security Symposium (USENIX 2021)* 
 
 
-Yongheng Chen and Rui Zhong and Hong Hu and Hangfan Zhang and Yupeng Yang and Dinghao Wu and Wenke Lee. 2021. "<span class="nocase">One Engine to Fuzz 'em All: Generic Language Processor Testing with Semantic Validation</span>." In *Proceedings of the 42nd IEEE Symposium on Security and Privacy (Oakland 2021)*. San Francisco, CA  
+- ** One Engine to Fuzz 'em All: Generic Language Processor Testing with Semantic Validation **
+
+    Yongheng Chen, Rui Zhong, Hong Hu, Hangfan Zhang, Yupeng Yang, Dinghao Wu and Wenke Lee
+
+    In *Proceedings of the 42nd IEEE Symposium on Security and Privacy (Oakland 2021)* 
 
 
-Jinho Jung and Stephen Tong and Hong Hu and Jungwon Lim and Yonghwi Jin and Taesoo Kim. 2021. "<span class="nocase">WINNIE: Fuzzing Windows Applications with Harness Synthesis and Fast Cloning</span>." In *Proceedings of the 28th Annual Network and Distributed System Security Symposium (NDSS 2021)*. Virtual  
+- ** WINNIE: Fuzzing Windows Applications with Harness Synthesis and Fast Cloning **
+
+    Jinho Jung, Stephen Tong, Hong Hu, Jungwon Lim, Yonghwi Jin and Taesoo Kim
+
+    In *Proceedings of the 28th Annual Network and Distributed System Security Symposium (NDSS 2021)* 

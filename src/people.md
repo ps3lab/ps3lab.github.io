@@ -1,7 +1,22 @@
 ## Leaders
 
-* [Linhai Song](https://songlh.github.io/)
-* [Hong Hu](https://huhong789.github.io/)
+
+<section class="psu-people">
+    <div class="psu-avatar-cropper">
+        <img src="https://songlh.github.io/figures/002.jpg">
+    </div>
+    <a href="https://songlh.github.io/">Linhai Song</a>
+</section>
+
+
+<section class="psu-people">
+    <div class="psu-avatar-cropper">
+        <img src="https://huhong789.github.io/images/photo.jpg">
+    </div>
+    <a href="https://huhong789.github.io/">Hong Hu</a>
+</section>
+
+
 
 ## Graduate Students
 

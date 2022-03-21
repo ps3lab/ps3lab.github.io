@@ -1,0 +1,20 @@
+
+.psu-avatar-cropper {
+    width: 10rem;
+    height: 10rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.psu-avatar-cropper img {
+    width: 10rem;
+    height: auto;
+    min-height: 100%;
+}
+
+.psu-people {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

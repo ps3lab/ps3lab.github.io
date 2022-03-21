@@ -29,12 +29,23 @@ def get_md_by_sorted_bib(bib_file):
         
     return md_content
 
+
 def resolve_bucket(s:str):
     s = s.lstrip("{ ")
     return s.rstrip(" }")
+
+def format_author(s:str):
+    authors = s.split(" and ")
+    prev_authors = authors[:len(authors)-1]
+    return ", ".join(prev_authors) + " and " + authors[-1]
+
 def bibentry_to_str(e):
     return f"""
-{e["author"]}. {e["year"]}. "<span class="nocase">{resolve_bucket(e["title"])}</span>." In *{e["booktitle"]}*. {e["address"]}  
+- ** {resolve_bucket(e["title"])} **
+
+    {format_author(e["author"])}
+
+    In *{e["booktitle"]}* 
 """
 
 def main():
