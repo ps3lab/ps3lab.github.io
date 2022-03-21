@@ -16,9 +16,15 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - attr_list
 
 extra_css:
   - assets/css/people.css
+  - assets/css/publication.css
+
+extra_javascript:
+  - assets/js/publication.js
+
 
 site_name: PennState System Security Lab
 site_url: https://ps3lab.github.io/

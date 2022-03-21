@@ -89,19 +89,26 @@ def bibentry_to_str(e):
     if os.path.exists(slides_fp):
         md += f"[:material-presentation:]({get_slides_url(e)})"
 
+    # reference button
+    md += f"[:octicons-cross-reference-16:](#){{.psu-ref-button}}"
+
+    # abstract button
+    if "abstract" in e:
+        md += f"[:material-newspaper-variant-outline:](#){{.psu-abs-button}}"
+
     # check is abstract exist
     if "abstract" in e:
         abstract = e["abstract"]
         md += f"""
 
-    ??? Abstract
+    !!! Abstract
 
         {format_in_detail(abstract)}
         """
     
     md += f"""
     
-    ??? BibTeX
+    !!! BibTeX
 
         ```
         {format_in_detail(bib_to_str(e))}

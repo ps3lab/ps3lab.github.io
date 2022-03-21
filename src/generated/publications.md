@@ -6,9 +6,9 @@
     Liang He, Hong Hu, Purui Su, Yan Cai and Zhenkai Liang
 
     In *Proceedings of the 31st USENIX Security Symposium (USENIX 2022)*
-[:octicons-file-16:](/assets/pp/he:freewill.pdf)
+[:octicons-file-16:](/assets/pp/he:freewill.pdf)[:octicons-cross-reference-16:](#){.psu-ref-button}
     
-    ??? BibTeX
+    !!! BibTeX
 
         ```
         @inproceedings{he:freewill,
@@ -38,9 +38,9 @@
     Peng Xu, Yanhao Wang, Hong Hu and Purui Su
 
     In *Proceedings of the 29th Annual Network and Distributed System Security Symposium (NDSS 2022)*
-[:octicons-link-16:](https://github.com/TCA-ISCAS/Cooper)[:octicons-file-16:](/assets/pp/xu:cooper.pdf)
+[:octicons-link-16:](https://github.com/TCA-ISCAS/Cooper)[:octicons-file-16:](/assets/pp/xu:cooper.pdf)[:octicons-cross-reference-16:](#){.psu-ref-button}
     
-    ??? BibTeX
+    !!! BibTeX
 
         ```
         @inproceedings{xu:cooper,
@@ -72,9 +72,9 @@
     Ziheng Liu, Shihao Xia, Yu Liang, Linhai Song and Hong Hu
 
     In *Proceedings of the 27th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2022)*
-[:octicons-link-16:](https://github.com/system-pclub/GFuzz)[:octicons-file-16:](/assets/pp/liu:gfuzz.pdf)[:material-presentation:](/assets/pp/liu:gfuzz-slides.pdf)
+[:octicons-link-16:](https://github.com/system-pclub/GFuzz)[:octicons-file-16:](/assets/pp/liu:gfuzz.pdf)[:material-presentation:](/assets/pp/liu:gfuzz-slides.pdf)[:octicons-cross-reference-16:](#){.psu-ref-button}[:material-newspaper-variant-outline:](#){.psu-abs-button}
 
-    ??? Abstract
+    !!! Abstract
 
         Go is a young programming language invented to build safe and efficient concurrent programs. It provides goroutines as lightweight threads and channels for inter-goroutine communication. Programmers are encouraged to explicitly pass messages through channels to connect goroutines, with the purpose of reducing the chance of making programming mistakes and introducing concurrency bugs. Go is one of the most beloved programming languages and has already been used to build many critical infrastructure software systems in the data-center environment. However, a recent study shows that channel-related concurrency bugs are still common in Go programs, severely hurting the reliability of Go applications.
         
@@ -83,7 +83,7 @@
         
         
     
-    ??? BibTeX
+    !!! BibTeX
 
         ```
         @inproceedings{liu:gfuzz,
@@ -116,9 +116,9 @@
     Kyuhong Park, Burak Sahin, Yongheng Chen, Jisheng Zhao, Evan Downing, Hong Hu and Wenke Lee
 
     In *Proceedings of the 16th ACM ASIA Conference on Computer and Communications Security (AsiaCCS 2021)*
-[:octicons-link-16:](https://github.com/kp2bit/bdhunter)[:octicons-file-16:](/assets/pp/park:bdhunter.pdf)
+[:octicons-link-16:](https://github.com/kp2bit/bdhunter)[:octicons-file-16:](/assets/pp/park:bdhunter.pdf)[:octicons-cross-reference-16:](#){.psu-ref-button}
     
-    ??? BibTeX
+    !!! BibTeX
 
         ```
         @inproceedings{park:bdhunter,
@@ -150,9 +150,9 @@
     Libo Chen, Yanhao Wang, Quanpu Cai, Yunfan Zhan, Hong Hu, Jiaqi Linghu, Qinsheng Hou, Chao Zhang, Haixin Duan and Zhi Xue
 
     In *Proceedings of the 30th USENIX Security Symposium (USENIX 2021)*
-[:octicons-link-16:](https://github.com/NSSL-SJTU/SaTC)[:octicons-file-16:](/assets/pp/chen:satc.pdf)[:material-presentation:](/assets/pp/chen:satc-slides.pdf)
+[:octicons-link-16:](https://github.com/NSSL-SJTU/SaTC)[:octicons-file-16:](/assets/pp/chen:satc.pdf)[:material-presentation:](/assets/pp/chen:satc-slides.pdf)[:octicons-cross-reference-16:](#){.psu-ref-button}
     
-    ??? BibTeX
+    !!! BibTeX
 
         ```
         @inproceedings{chen:satc,
@@ -184,9 +184,9 @@
     Feng Xiao, Jianwei Huang, Yichang Xiong, Guangliang Yang, Hong Hu, Guofei Gu and Wenke Lee
 
     In *Proceedings of the 30th USENIX Security Symposium (USENIX 2021)*
-[:octicons-link-16:](https://github.com/xiaofen9/Lynx)[:octicons-file-16:](/assets/pp/xiao:lynx.pdf)[:material-presentation:](/assets/pp/xiao:lynx-slides.pdf)
+[:octicons-link-16:](https://github.com/xiaofen9/Lynx)[:octicons-file-16:](/assets/pp/xiao:lynx.pdf)[:material-presentation:](/assets/pp/xiao:lynx-slides.pdf)[:octicons-cross-reference-16:](#){.psu-ref-button}
     
-    ??? BibTeX
+    !!! BibTeX
 
         ```
         @inproceedings{xiao:lynx,
@@ -218,9 +218,9 @@
     Brian Wickman, Hong Hu, Insu Yun, Daehee Jang, JungWon Lim, Sanidhya Kashyap and Taesoo Kim
 
     In *Proceedings of the 30th USENIX Security Symposium (USENIX 2021)*
-[:octicons-link-16:](https://github.com/bwickman97/ffmalloc)[:octicons-file-16:](/assets/pp/wickman:ffmalloc.pdf)[:material-presentation:](/assets/pp/wickman:ffmalloc-slides.pdf)
+[:octicons-link-16:](https://github.com/bwickman97/ffmalloc)[:octicons-file-16:](/assets/pp/wickman:ffmalloc.pdf)[:material-presentation:](/assets/pp/wickman:ffmalloc-slides.pdf)[:octicons-cross-reference-16:](#){.psu-ref-button}
     
-    ??? BibTeX
+    !!! BibTeX
 
         ```
         @inproceedings{wickman:ffmalloc,
@@ -252,9 +252,9 @@
     Yongheng Chen, Rui Zhong, Hong Hu, Hangfan Zhang, Yupeng Yang, Dinghao Wu and Wenke Lee
 
     In *Proceedings of the 42nd IEEE Symposium on Security and Privacy (Oakland 2021)*
-[:octicons-link-16:](https://github.com/s3team/Polyglot)[:octicons-file-16:](/assets/pp/chen:polyglot.pdf)
+[:octicons-link-16:](https://github.com/s3team/Polyglot)[:octicons-file-16:](/assets/pp/chen:polyglot.pdf)[:octicons-cross-reference-16:](#){.psu-ref-button}
     
-    ??? BibTeX
+    !!! BibTeX
 
         ```
         @inproceedings{chen:polyglot,
@@ -286,9 +286,9 @@
     Jinho Jung, Stephen Tong, Hong Hu, Jungwon Lim, Yonghwi Jin and Taesoo Kim
 
     In *Proceedings of the 28th Annual Network and Distributed System Security Symposium (NDSS 2021)*
-[:octicons-link-16:](https://github.com/sslab-gatech/winnie)[:octicons-file-16:](/assets/pp/jung:winnie.pdf)[:material-presentation:](/assets/pp/jung:winnie-slides.pdf)
+[:octicons-link-16:](https://github.com/sslab-gatech/winnie)[:octicons-file-16:](/assets/pp/jung:winnie.pdf)[:material-presentation:](/assets/pp/jung:winnie-slides.pdf)[:octicons-cross-reference-16:](#){.psu-ref-button}
     
-    ??? BibTeX
+    !!! BibTeX
 
         ```
         @inproceedings{jung:winnie,
