@@ -27,13 +27,3 @@ Yongheng Chen and Rui Zhong and Hong Hu and Hangfan Zhang and Yupeng Yang and Di
 
 
 Jinho Jung and Stephen Tong and Hong Hu and Jungwon Lim and Yonghwi Jin and Taesoo Kim. 2021. "<span class="nocase">WINNIE: Fuzzing Windows Applications with Harness Synthesis and Fast Cloning</span>." In *Proceedings of the 28th Annual Network and Distributed System Security Symposium (NDSS 2021)*. Virtual  
-
-## 2020
-
-Rui Zhong and Yongheng Chen and Hong Hu and Hangfan Zhang and Wenke Lee and Dinghao Wu. 2020. "<span class="nocase">SQUIRREL: Testing Database Management Systems with Language Validity and Coverage Feedback</span>." In *Proceedings of the 27th ACM Conference on Computer and Communications Security (CCS 2020)*. Orlando, USA  
-
-
-Jinho Jung and Hong Hu and Joy Arulraj and Taesoo Kim and Woonhak Kang. 2020. "<span class="nocase">APOLLO: Automatic Detection and Diagnosis of Performance Regressions in Database Systems</span>." In *Proceedings of the 46th International Conference on Very Large Data Bases (VLDB 2020)*. Tokyo, Japan  
-
-
-Ren Ding and Hong Hu and Wen Xu and Taesoo Kim. 2020. "<span class="nocase">DESENSITIZATION: Privacy-Aware and Attack-Preserving Crash Report</span>." In *Proceedings of the 27th Annual Network and Distributed System Security Symposium (NDSS 2020)*. San Diego, CA  
