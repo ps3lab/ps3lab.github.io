@@ -77,24 +77,24 @@ def bibentry_to_str(e):
 """
     if "www-url" in e:
         url = e["www-url"]
-        md += f"[:octicons-link-16:]({url})"
+        md += f"&nbsp;&nbsp;[:octicons-link-16:]({url})"
     
     # check if paper exist
     paper_fp = get_paper_filepath(e)
     if os.path.exists(paper_fp):
-        md += f"[:octicons-file-16:]({get_paper_url(e)})"
+        md += f"&nbsp;&nbsp;[:octicons-file-16:]({get_paper_url(e)})"
     
     # check if slides exist
     slides_fp = get_slides_filepath(e)
     if os.path.exists(slides_fp):
-        md += f"[:material-presentation:]({get_slides_url(e)})"
+        md += f"&nbsp;&nbsp;[:material-presentation:]({get_slides_url(e)})"
 
     # reference button
-    md += f"[:octicons-cross-reference-16:](#){{.psu-ref-button}}"
+    md += f"&nbsp;&nbsp;[:octicons-cross-reference-16:](#){{.psu-ref-button}} "
 
     # abstract button
     if "abstract" in e:
-        md += f"[:material-newspaper-variant-outline:](#){{.psu-abs-button}}"
+        md += f"&nbsp;&nbsp;[:material-newspaper-variant-outline:](#){{.psu-abs-button}}"
 
     # check is abstract exist
     if "abstract" in e:
