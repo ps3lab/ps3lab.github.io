@@ -39,14 +39,31 @@ def format_author(s:str):
     prev_authors = authors[:len(authors)-1]
     return ", ".join(prev_authors) + " and " + authors[-1]
 
+def format_abstract(s:str):
+    return "\n        \n        ".join(s.split("\n"))
+
 def bibentry_to_str(e):
-    return f"""
+    md = f"""
 - ** {resolve_bucket(e["title"])} **
-
-    {format_author(e["author"])}
-
-    In *{e["booktitle"]}* 
+    {format_author(e["author"])}<br>
+    In *{e["booktitle"]}*<br>
 """
+    if "www-url" in e:
+        url = e["www-url"]
+        md += f"[:link:]({url})"
+    
+    if "abstract" in e:
+        abstract = e["abstract"]
+        md += f"""
+
+    ??? Abstract
+
+        {format_abstract(abstract)}
+"""
+    return md
+
+
+
 
 def main():
     generated_tex_str = get_md_by_sorted_bib("src/publications.bib")

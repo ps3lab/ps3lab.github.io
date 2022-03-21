@@ -387,52 +387,65 @@
 <h2 id="2022">2022<a class="headerlink" href="#2022" title="Permanent link">&para;</a></h2>
 <ul>
 <li>
-<p><strong> FreeWill: Automatically Diagnosing Use-after-free Bugs via Reference Miscounting Detection on Binaries (To Appear) </strong></p>
-<p>Liang He, Hong Hu, Purui Su, Yan Cai and Zhenkai Liang</p>
-<p>In <em>Proceedings of the 31st USENIX Security Symposium (USENIX 2022)</em> </p>
+<p><strong> FreeWill: Automatically Diagnosing Use-after-free Bugs via Reference Miscounting Detection on Binaries (To Appear) </strong>
+    Liang He, Hong Hu, Purui Su, Yan Cai and Zhenkai Liang<br>
+    In <em>Proceedings of the 31st USENIX Security Symposium (USENIX 2022)</em><br></p>
 </li>
 <li>
-<p><strong> Cooper: Testing the Binding Code of Scripting Languages with Cooperative Mutation (To Appear) </strong></p>
-<p>Peng Xu, Yanhao Wang, Hong Hu and Purui Su</p>
-<p>In <em>Proceedings of the 29th Annual Network and Distributed System Security Symposium (NDSS 2022)</em> </p>
+<p><strong> Cooper: Testing the Binding Code of Scripting Languages with Cooperative Mutation (To Appear) </strong>
+    Peng Xu, Yanhao Wang, Hong Hu and Purui Su<br>
+    In <em>Proceedings of the 29th Annual Network and Distributed System Security Symposium (NDSS 2022)</em><br>
+<a href="https://github.com/TCA-ISCAS/Cooper"><img alt="🔗" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f517.svg" title=":link:" /></a></p>
 </li>
 <li>
-<p><strong> Who Goes First? Detecting Go Concurrency Bugs via Message Reordering </strong></p>
-<p>Ziheng Liu, Shihao Xia, Yu Liang, Linhai Song and Hong Hu</p>
-<p>In <em>Proceedings of the 27th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2022)</em> </p>
+<p><strong> Who Goes First? Detecting Go Concurrency Bugs via Message Reordering </strong>
+    Ziheng Liu, Shihao Xia, Yu Liang, Linhai Song and Hong Hu<br>
+    In <em>Proceedings of the 27th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2022)</em><br>
+<a href="https://github.com/system-pclub/GFuzz"><img alt="🔗" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f517.svg" title=":link:" /></a></p>
+<details class="abstract">
+<summary>Abstract</summary>
+<p>Go is a young programming language invented to build safe and efficient concurrent programs. It provides goroutines as lightweight threads and channels for inter-goroutine communication. Programmers are encouraged to explicitly pass messages through channels to connect goroutines, with the purpose of reducing the chance of making programming mistakes and introducing concurrency bugs. Go is one of the most beloved programming languages and has already been used to build many critical infrastructure software systems in the data-center environment. However, a recent study shows that channel-related concurrency bugs are still common in Go programs, severely hurting the reliability of Go applications.</p>
+<p>This paper presents GFuzz, a dynamic detector that can effectively pinpoint channel-related concurrency bugs by mutating the processing orders of concurrent messages. We build GFuzz in three steps. We first adopt an effective approach to identify concurrent messages and transform a program to process those messages in any given order. We then take a fuzzing approach to generate new processing orders by mutating exercised ones and rely on execution feedback to prioritize orders close to triggering bugs. Finally, we design a runtime sanitizer to capture triggered bugs that are missed by the Go runtime. We evaluate GFuzz on seven popular Go software systems, including Docker, Kubernetes, and gRPC. GFuzz finds 184 previously unknown bugs and reports a negligible number of false positives. Programmers have already confirmed 124 reports as real bugs and fixed 67 of them based on our reporting. A careful inspection of the detected concurrency bugs from gRPC shows the effectiveness of each component of GFuzz and confirms the components’ rationality.</p>
+</details>
 </li>
 </ul>
 <h2 id="2021">2021<a class="headerlink" href="#2021" title="Permanent link">&para;</a></h2>
 <ul>
 <li>
-<p><strong> Identifying Behavior Dispatchers for Malware Analysis </strong></p>
-<p>Kyuhong Park, Burak Sahin, Yongheng Chen, Jisheng Zhao, Evan Downing, Hong Hu and Wenke Lee</p>
-<p>In <em>Proceedings of the 16th ACM ASIA Conference on Computer and Communications Security (AsiaCCS 2021)</em> </p>
+<p><strong> Identifying Behavior Dispatchers for Malware Analysis </strong>
+    Kyuhong Park, Burak Sahin, Yongheng Chen, Jisheng Zhao, Evan Downing, Hong Hu and Wenke Lee<br>
+    In <em>Proceedings of the 16th ACM ASIA Conference on Computer and Communications Security (AsiaCCS 2021)</em><br>
+<a href="https://github.com/kp2bit/bdhunter"><img alt="🔗" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f517.svg" title=":link:" /></a></p>
 </li>
 <li>
-<p><strong> Sharing More and Checking Less: Leaveraging Common Input Keywords to Detect Bugs in Embedded Systems </strong></p>
-<p>Libo Chen, Yanhao Wang, Quanpu Cai, Yunfan Zhan, Hong Hu, Jiaqi Linghu, Qinsheng Hou, Chao Zhang, Haixin Duan and Zhi Xue</p>
-<p>In <em>Proceedings of the 30th USENIX Security Symposium (USENIX 2021)</em> </p>
+<p><strong> Sharing More and Checking Less: Leaveraging Common Input Keywords to Detect Bugs in Embedded Systems </strong>
+    Libo Chen, Yanhao Wang, Quanpu Cai, Yunfan Zhan, Hong Hu, Jiaqi Linghu, Qinsheng Hou, Chao Zhang, Haixin Duan and Zhi Xue<br>
+    In <em>Proceedings of the 30th USENIX Security Symposium (USENIX 2021)</em><br>
+<a href="https://github.com/NSSL-SJTU/SaTC"><img alt="🔗" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f517.svg" title=":link:" /></a></p>
 </li>
 <li>
-<p><strong> Abusing Hidden Properties to Attack the Node.js Ecosystem </strong></p>
-<p>Feng Xiao, Jianwei Huang, Yichang Xiong, Guangliang Yang, Hong Hu, Guofei Gu and Wenke Lee</p>
-<p>In <em>Proceedings of the 30th USENIX Security Symposium (USENIX 2021)</em> </p>
+<p><strong> Abusing Hidden Properties to Attack the Node.js Ecosystem </strong>
+    Feng Xiao, Jianwei Huang, Yichang Xiong, Guangliang Yang, Hong Hu, Guofei Gu and Wenke Lee<br>
+    In <em>Proceedings of the 30th USENIX Security Symposium (USENIX 2021)</em><br>
+<a href="https://github.com/xiaofen9/Lynx"><img alt="🔗" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f517.svg" title=":link:" /></a></p>
 </li>
 <li>
-<p><strong> Preventing Use-After-Free Attacks with Fast Forward Allocation </strong></p>
-<p>Brian Wickman, Hong Hu, Insu Yun, Daehee Jang, JungWon Lim, Sanidhya Kashyap and Taesoo Kim</p>
-<p>In <em>Proceedings of the 30th USENIX Security Symposium (USENIX 2021)</em> </p>
+<p><strong> Preventing Use-After-Free Attacks with Fast Forward Allocation </strong>
+    Brian Wickman, Hong Hu, Insu Yun, Daehee Jang, JungWon Lim, Sanidhya Kashyap and Taesoo Kim<br>
+    In <em>Proceedings of the 30th USENIX Security Symposium (USENIX 2021)</em><br>
+<a href="https://github.com/bwickman97/ffmalloc"><img alt="🔗" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f517.svg" title=":link:" /></a></p>
 </li>
 <li>
-<p><strong> One Engine to Fuzz 'em All: Generic Language Processor Testing with Semantic Validation </strong></p>
-<p>Yongheng Chen, Rui Zhong, Hong Hu, Hangfan Zhang, Yupeng Yang, Dinghao Wu and Wenke Lee</p>
-<p>In <em>Proceedings of the 42nd IEEE Symposium on Security and Privacy (Oakland 2021)</em> </p>
+<p><strong> One Engine to Fuzz 'em All: Generic Language Processor Testing with Semantic Validation </strong>
+    Yongheng Chen, Rui Zhong, Hong Hu, Hangfan Zhang, Yupeng Yang, Dinghao Wu and Wenke Lee<br>
+    In <em>Proceedings of the 42nd IEEE Symposium on Security and Privacy (Oakland 2021)</em><br>
+<a href="https://github.com/s3team/Polyglot"><img alt="🔗" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f517.svg" title=":link:" /></a></p>
 </li>
 <li>
-<p><strong> WINNIE: Fuzzing Windows Applications with Harness Synthesis and Fast Cloning </strong></p>
-<p>Jinho Jung, Stephen Tong, Hong Hu, Jungwon Lim, Yonghwi Jin and Taesoo Kim</p>
-<p>In <em>Proceedings of the 28th Annual Network and Distributed System Security Symposium (NDSS 2021)</em> </p>
+<p><strong> WINNIE: Fuzzing Windows Applications with Harness Synthesis and Fast Cloning </strong>
+    Jinho Jung, Stephen Tong, Hong Hu, Jungwon Lim, Yonghwi Jin and Taesoo Kim<br>
+    In <em>Proceedings of the 28th Annual Network and Distributed System Security Symposium (NDSS 2021)</em><br>
+<a href="https://github.com/sslab-gatech/winnie"><img alt="🔗" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f517.svg" title=":link:" /></a></p>
 </li>
 </ul>
 

@@ -6,9 +6,16 @@ theme:
     - navigation.tracking
     - toc.integrate
     - toc.follow
+   
 markdown_extensions:
   - toc:
       permalink: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 extra_css:
   - assets/css/people.css
