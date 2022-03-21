@@ -48,6 +48,14 @@ def get_paper_filepath(e):
     bib_id = e["ID"]
     return f"src/assets/pp/{bib_id}.pdf"
 
+def get_slides_filepath(e):
+    bib_id = e["ID"]
+    return f"src/assets/pp/{bib_id}-slides.pdf"
+
+def get_slides_url(e):
+    bib_id = e["ID"]
+    return f"/assets/pp/{bib_id}-slides.pdf"
+
 def get_paper_url(e):
     bib_id = e["ID"]
     return f"/assets/pp/{bib_id}.pdf"
@@ -70,10 +78,17 @@ def bibentry_to_str(e):
         url = e["www-url"]
         md += f"[:octicons-link-16:]({url})"
     
+    # check if paper exist
     paper_fp = get_paper_filepath(e)
     if os.path.exists(paper_fp):
         md += f"[:octicons-file-16:]({get_paper_url(e)})"
     
+    # check if slides exist
+    slides_fp = get_slides_filepath(e)
+    if os.path.exists(slides_fp):
+        md += f"[:material-presentation:]({get_slides_url(e)})"
+
+    # check is abstract exist
     if "abstract" in e:
         abstract = e["abstract"]
         md += f"""
@@ -82,7 +97,7 @@ def bibentry_to_str(e):
 
         {format_in_detail(abstract)}
         """
-
+    
     md += f"""
     
     ??? BibTeX

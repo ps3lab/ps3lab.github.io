@@ -69,7 +69,7 @@
     Ziheng Liu, Shihao Xia, Yu Liang, Linhai Song and Hong Hu
 
     In *Proceedings of the 27th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2022)*
-[:octicons-link-16:](https://github.com/system-pclub/GFuzz)[:octicons-file-16:](/assets/pp/liu:gfuzz.pdf)
+[:octicons-link-16:](https://github.com/system-pclub/GFuzz)[:octicons-file-16:](/assets/pp/liu:gfuzz.pdf)[:material-presentation:](/assets/pp/liu:gfuzz-slides.pdf)
 
     ??? Abstract
 
@@ -145,7 +145,7 @@
     Libo Chen, Yanhao Wang, Quanpu Cai, Yunfan Zhan, Hong Hu, Jiaqi Linghu, Qinsheng Hou, Chao Zhang, Haixin Duan and Zhi Xue
 
     In *Proceedings of the 30th USENIX Security Symposium (USENIX 2021)*
-[:octicons-link-16:](https://github.com/NSSL-SJTU/SaTC)[:octicons-file-16:](/assets/pp/chen:satc.pdf)
+[:octicons-link-16:](https://github.com/NSSL-SJTU/SaTC)[:octicons-file-16:](/assets/pp/chen:satc.pdf)[:material-presentation:](/assets/pp/chen:satc-slides.pdf)
     
     ??? BibTeX
 
@@ -178,7 +178,7 @@
     Feng Xiao, Jianwei Huang, Yichang Xiong, Guangliang Yang, Hong Hu, Guofei Gu and Wenke Lee
 
     In *Proceedings of the 30th USENIX Security Symposium (USENIX 2021)*
-[:octicons-link-16:](https://github.com/xiaofen9/Lynx)[:octicons-file-16:](/assets/pp/xiao:lynx.pdf)
+[:octicons-link-16:](https://github.com/xiaofen9/Lynx)[:octicons-file-16:](/assets/pp/xiao:lynx.pdf)[:material-presentation:](/assets/pp/xiao:lynx-slides.pdf)
     
     ??? BibTeX
 
@@ -211,7 +211,7 @@
     Brian Wickman, Hong Hu, Insu Yun, Daehee Jang, JungWon Lim, Sanidhya Kashyap and Taesoo Kim
 
     In *Proceedings of the 30th USENIX Security Symposium (USENIX 2021)*
-[:octicons-link-16:](https://github.com/bwickman97/ffmalloc)[:octicons-file-16:](/assets/pp/wickman:ffmalloc.pdf)
+[:octicons-link-16:](https://github.com/bwickman97/ffmalloc)[:octicons-file-16:](/assets/pp/wickman:ffmalloc.pdf)[:material-presentation:](/assets/pp/wickman:ffmalloc-slides.pdf)
     
     ??? BibTeX
 
@@ -277,7 +277,7 @@
     Jinho Jung, Stephen Tong, Hong Hu, Jungwon Lim, Yonghwi Jin and Taesoo Kim
 
     In *Proceedings of the 28th Annual Network and Distributed System Security Symposium (NDSS 2021)*
-[:octicons-link-16:](https://github.com/sslab-gatech/winnie)[:octicons-file-16:](/assets/pp/jung:winnie.pdf)
+[:octicons-link-16:](https://github.com/sslab-gatech/winnie)[:octicons-file-16:](/assets/pp/jung:winnie.pdf)[:material-presentation:](/assets/pp/jung:winnie-slides.pdf)
     
     ??? BibTeX
 
