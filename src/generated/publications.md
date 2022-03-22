@@ -6,7 +6,14 @@
     Liang He, Hong Hu, Purui Su, Yan Cai and Zhenkai Liang
 
     In *Proceedings of the 31st USENIX Security Symposium (USENIX 2022)*
-&nbsp;&nbsp;[:octicons-file-16:](/assets/pp/he:freewill.pdf)&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} 
+&nbsp;&nbsp;[:octicons-file-16:](/assets/pp/he:freewill.pdf)&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} &nbsp;&nbsp;[:material-newspaper-variant-outline:](#){.psu-abs-button}
+
+    !!! Abstract
+
+        Memory-safety issues in operating systems and popular applications are still top security threats. As one widely exploited vulnerability, Use After Free (UAF) resulted in hundreds of new incidents every year. Existing bug diagnosis techniques report the locations that allocate or deallocate the vulnerable object, but cannot provide sufficient information for developers to reason about a bug or synthesize a correct patch. 
+        
+        In this work, we identified incorrect reference counting as one common root cause of UAF bugs: if the developer forgets to increase the counter for a newly created reference, the program may prematurely free the actively used object, rendering other references dangling pointers. We call this problem reference miscounting. By proposing an omission- aware counting model, we developed an automatic method, FreeWill, to diagnose UAF bugs. FreeWill first reproduces a UAF bug and collects related execution trace. Then, it identifies the UAF object and related references. Finally, FreeWill compares reference operations with our model to detect reference miscounting. We evaluated FreeWill on 76 real-world UAF bugs and it successfully confirmed reference miscounting as root causes for 48 bugs and dangling usage for 18 bugs. FreeWill also identified five null-pointer dereference bugs and failed to analyze five bugs. FreeWill can complete its analysis within 15 minutes on average, showing its practicality for diagnosing UAF bugs.
+        
     
     !!! BibTeX
 
@@ -38,7 +45,14 @@
     Peng Xu, Yanhao Wang, Hong Hu and Purui Su
 
     In *Proceedings of the 29th Annual Network and Distributed System Security Symposium (NDSS 2022)*
-&nbsp;&nbsp;[:octicons-link-16:](https://github.com/TCA-ISCAS/Cooper)&nbsp;&nbsp;[:octicons-file-16:](/assets/pp/xu:cooper.pdf)&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} 
+&nbsp;&nbsp;[:octicons-link-16:](https://github.com/TCA-ISCAS/Cooper)&nbsp;&nbsp;[:octicons-file-16:](/assets/pp/xu:cooper.pdf)&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} &nbsp;&nbsp;[:material-newspaper-variant-outline:](#){.psu-abs-button}
+
+    !!! Abstract
+
+        Scripting languages like JavaScript are being integrated into commercial software to support easy file modification. For example, Adobe Acrobat accepts JavaScript to dynamically manipulate PDF files. To bridge the gap between the high-level scripts and the low-level languages (like C/C++) used to implement the software, a binding layer is necessary to transfer data and transform representations. However, due to the complexity of two sides, the binding code is prone to inconsistent semantics and security holes, which lead to severe vulnerabilities. Existing efforts for testing binding code merely focus on the script side, and thus miss bugs that require special program native inputs.
+        
+        In this paper, we propose cooperative mutation, which modifies both the script code and the program native input to trigger bugs in binding code. Our insight is that many bugs are due to the interplay between the program initial state and the dynamic operations, which can only be triggered through two-dimensional mutations. We develop three novel techniques to enable practical cooperative mutation on popular scripting languages: we first cluster objects into semantics similar classes to reduce the mutation space of native inputs; then, we statistically infer the relationship between script code and object classes based on a large number of executions; at last, we use the inferred relationship to select proper objects and related script code for targeted mutation. We applied our tool, COOPER, on three popular systems that integrate scripting languages, including Adobe Acrobat, Foxit Reader and Microsoft Word. COOPER successfully found 134 previously unknown bugs. We have reported all of them to the developers. At the time of paper publishing, 59 bugs have been fixed and 33 of them are assigned CVE numbers. We are awarded totally 22K dollars bounty for 17 out of all reported bugs.
+        
     
     !!! BibTeX
 
@@ -180,7 +194,14 @@
     Kyuhong Park, Burak Sahin, Yongheng Chen, Jisheng Zhao, Evan Downing, Hong Hu and Wenke Lee
 
     In *Proceedings of the 16th ACM ASIA Conference on Computer and Communications Security (AsiaCCS 2021)*
-&nbsp;&nbsp;[:octicons-link-16:](https://github.com/kp2bit/bdhunter)&nbsp;&nbsp;[:octicons-file-16:](/assets/pp/park:bdhunter.pdf)&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} 
+&nbsp;&nbsp;[:octicons-link-16:](https://github.com/kp2bit/bdhunter)&nbsp;&nbsp;[:octicons-file-16:](/assets/pp/park:bdhunter.pdf)&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} &nbsp;&nbsp;[:material-newspaper-variant-outline:](#){.psu-abs-button}
+
+    !!! Abstract
+
+        Malware is a major threat to modern computer systems. Malicious behaviors are hidden by a variety of techniques: code obfuscation, message encoding and encryption, etc. Countermeasures have been developed to thwart these techniques in order to expose malicious behaviors. However, these countermeasures rely heavily on identifying specific API calls, which has significant limitations as these calls can be misleading or hidden from the analyst. In this paper, we show that malicious programs share a key component which we call a behavior dispatcher, a code structure which is intercepted between various condition checks and malicious actions. By identifying these behavior dispatchers, a malware analysis can be guided into behavior dispatchers and activate hidden malicious actions more easily.
+        
+        We propose BDHunter, a system that automatically identifies dispatchers to assist triggering malicious behaviors. BDHunter takes advantage of the observation that a dispatcher compares an input with a set of expected values to determine which malicious behaviors to execute next. We evaluate BDHunter on recent malware samples to identify behavior dispatchers and show that these dispatchers can help trigger more malicious behaviors (otherwise hidden). Our experimental results show that BDHunter identifies 77.4% of dispatchers within the top 20 candidates discovered. Furthermore, BDHunter-guided concolic execution successfully triggers 13.0× and 2.6× more malicious behaviors, compared to unguided symbolic and concolic execution, respectively. These demonstrate that BDHunter effectively identifies behavior dispatchers, which are useful for exposing malicious behaviors.
+        
     
     !!! BibTeX
 
@@ -214,7 +235,14 @@
     Libo Chen, Yanhao Wang, Quanpu Cai, Yunfan Zhan, Hong Hu, Jiaqi Linghu, Qinsheng Hou, Chao Zhang, Haixin Duan and Zhi Xue
 
     In *Proceedings of the 30th USENIX Security Symposium (USENIX 2021)*
-&nbsp;&nbsp;[:octicons-link-16:](https://github.com/NSSL-SJTU/SaTC)&nbsp;&nbsp;[:octicons-file-16:](/assets/pp/chen:satc.pdf)&nbsp;&nbsp;[:material-presentation:](/assets/pp/chen:satc-slides.pdf)&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} 
+&nbsp;&nbsp;[:octicons-link-16:](https://github.com/NSSL-SJTU/SaTC)&nbsp;&nbsp;[:octicons-file-16:](/assets/pp/chen:satc.pdf)&nbsp;&nbsp;[:material-presentation:](/assets/pp/chen:satc-slides.pdf)&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} &nbsp;&nbsp;[:material-newspaper-variant-outline:](#){.psu-abs-button}
+
+    !!! Abstract
+
+        IoT devices have brought invaluable convenience to our daily life. However, their pervasiveness also amplifies the impact of security vulnerabilities. Many popular vulnerabilities of embedded systems reside in their vulnerable web services. Unfortunately, existing vulnerability detection methods cannot effectively nor efficiently analyze such web services: they either introduce heavy execution overheads or have many false positives and false negatives.
+        
+        In this paper, we propose a novel static taint checking solution, SaTC, to effectively detect security vulnerabilities in web services provided by embedded devices. Our key insight is that, string literals on web interfaces are commonly shared between front-end files and back-end binaries to encode user input. We thus extract such common keywords from the front-end, and use them to locate reference points in the back-end, which indicate the input entry. Then, we apply targeted data-flow analysis to accurately detect dangerous uses of the untrusted user input. We implemented a prototype of SaTC and evaluated it on 39 embedded system firmwares from six popular vendors. SaTC discovered 33 unknown bugs, of which 30 are confirmed by CVE/CNVD/PSV. Compared to the state-of-the-art tool KARONTE, SaTC found significantly more bugs on the test set. It shows that, SaTC is effective in discovering bugs in embedded systems.
+        
     
     !!! BibTeX
 
@@ -248,7 +276,16 @@
     Feng Xiao, Jianwei Huang, Yichang Xiong, Guangliang Yang, Hong Hu, Guofei Gu and Wenke Lee
 
     In *Proceedings of the 30th USENIX Security Symposium (USENIX 2021)*
-&nbsp;&nbsp;[:octicons-link-16:](https://github.com/xiaofen9/Lynx)&nbsp;&nbsp;[:octicons-file-16:](/assets/pp/xiao:lynx.pdf)&nbsp;&nbsp;[:material-presentation:](/assets/pp/xiao:lynx-slides.pdf)&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} 
+&nbsp;&nbsp;[:octicons-link-16:](https://github.com/xiaofen9/Lynx)&nbsp;&nbsp;[:octicons-file-16:](/assets/pp/xiao:lynx.pdf)&nbsp;&nbsp;[:material-presentation:](/assets/pp/xiao:lynx-slides.pdf)&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} &nbsp;&nbsp;[:material-newspaper-variant-outline:](#){.psu-abs-button}
+
+    !!! Abstract
+
+        Nowadays, Node.js has been widely used in the development of server-side and desktop programs (e.g., Skype), with its cross-platform and high-performance execution environment of JavaScript. In past years, it has been reported other dynamic programming languages (e.g., PHP and Ruby) are unsafe on sharing objects. However, this security risk is not well studied and understood in JavaScript and Node.js programs.
+        
+        In this paper, we fill the gap by conducting the first systematic study on the communication process between clientand server-side code in Node.js programs. We extensively identify several new vulnerabilities in popular Node.js programs. To demonstrate their security implications, we design and de- velop a novel feasible attack, named hidden property abusing (HPA). Our further analysis shows HPA attacks are subtly different from existing findings regarding exploitation and attack effects. Through HPA attacks, a remote web attacker may obtain dangerous abilities, such as stealing confidential data, bypassing security checks, and launching DoS (Denial of Service) attacks.
+        
+        To help Node.js developers vet their programs against HPA, we design a novel vulnerability detection and verification tool, named LYNX, that utilizes hybrid program analysis to automatically reveal HPA vulnerabilities and even synthesize exploits. We apply LYNX on a set of widely-used Node.js programs and identify 15 previously unknown vulnerabilities. We have reported all of our findings to the Node.js community. 10 of them have been assigned with CVE, and 8 of them are rated as “Critical” or “High” severity. This indicates HPA attacks can cause serious security threats.
+        
     
     !!! BibTeX
 
@@ -282,7 +319,14 @@
     Brian Wickman, Hong Hu, Insu Yun, Daehee Jang, JungWon Lim, Sanidhya Kashyap and Taesoo Kim
 
     In *Proceedings of the 30th USENIX Security Symposium (USENIX 2021)*
-&nbsp;&nbsp;[:octicons-link-16:](https://github.com/bwickman97/ffmalloc)&nbsp;&nbsp;[:octicons-file-16:](/assets/pp/wickman:ffmalloc.pdf)&nbsp;&nbsp;[:material-presentation:](/assets/pp/wickman:ffmalloc-slides.pdf)&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} 
+&nbsp;&nbsp;[:octicons-link-16:](https://github.com/bwickman97/ffmalloc)&nbsp;&nbsp;[:octicons-file-16:](/assets/pp/wickman:ffmalloc.pdf)&nbsp;&nbsp;[:material-presentation:](/assets/pp/wickman:ffmalloc-slides.pdf)&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} &nbsp;&nbsp;[:material-newspaper-variant-outline:](#){.psu-abs-button}
+
+    !!! Abstract
+
+        Memory-unsafe languages are widely used to implement critical systems like kernels and browsers, leading to thousands of memory safety issues every year. A use-after-free bug is a temporal memory error where the program accidentally visits a freed memory location. Recent studies show that useafter-free is one of the most exploited memory vulnerabilities. Unfortunately, previous efforts to mitigate use-after-free bugs are not widely deployed in real-world programs due to either inadequate accuracy or high performance overhead.
+        
+        In this paper, we propose to resurrect the idea of one-time allocation (OTA) and provide a practical implementation with efficient execution and moderate memory overhead. With onetime allocation, the memory manager always returns a distinct memory address for each request. Since memory locations are not reused, attackers cannot reclaim freed objects, and thus cannot exploit use-after-free bugs. We utilize two techniques to render OTA practical: batch page management and the fusion of bump-pointer and fixed-size bins memory allocation styles. Batch page management helps reduce the number of system calls which negatively impact performance, while blending the two allocation methods mitigates the memory overhead and fragmentation issues. We implemented a prototype, called FFmalloc, to demonstrate our techniques. We evaluated FFmalloc on widely used benchmarks and real-world large programs. FFmalloc successfully blocked all tested useafter-free attacks while introducing moderate overhead. The results show that OTA can be a strong and practical solution to thwart use-after-free threats.
+        
     
     !!! BibTeX
 
@@ -316,7 +360,14 @@
     Yongheng Chen, Rui Zhong, Hong Hu, Hangfan Zhang, Yupeng Yang, Dinghao Wu and Wenke Lee
 
     In *Proceedings of the 42nd IEEE Symposium on Security and Privacy (Oakland 2021)*
-&nbsp;&nbsp;[:octicons-link-16:](https://github.com/s3team/Polyglot)&nbsp;&nbsp;[:octicons-file-16:](/assets/pp/chen:polyglot.pdf)&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} 
+&nbsp;&nbsp;[:octicons-link-16:](https://github.com/s3team/Polyglot)&nbsp;&nbsp;[:octicons-file-16:](/assets/pp/chen:polyglot.pdf)&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} &nbsp;&nbsp;[:material-newspaper-variant-outline:](#){.psu-abs-button}
+
+    !!! Abstract
+
+        Language processors, such as compilers and interpreters, are indispensable in building modern software. Errors in language processors can lead to severe consequences, like incorrect functionalities or even malicious attacks. However, it is not trivial to automatically test language processors to find bugs. Existing testing methods (or fuzzers) either fail to generate high-quality (i.e., semantically correct) test cases, or only support limited programming languages.
+        
+        In this paper, we propose POLYGLOT, a generic fuzzing framework that generates high-quality test cases for exploring processors of different programming languages. To achieve the generic applicability, POLYGLOT neutralizes the difference in syntax and semantics of programming languages with a uniform immediate representation (IR). To improve the language validity, POLYGLOT performs constrained mutation and semantic validation to preserve syntactic correctness and fix semantic errors. We have applied POLYGLOT on 21 popular language processors of 9 programming languages, and identified 173 new bugs, 113 of which are fixed with 18 CVEs assigned. Our experiments show that POLYGLOT can support a wide range of programming languages, and outperforms existing fuzzers with up to 30× improvement in code coverage.
+        
     
     !!! BibTeX
 
@@ -350,7 +401,14 @@
     Jinho Jung, Stephen Tong, Hong Hu, Jungwon Lim, Yonghwi Jin and Taesoo Kim
 
     In *Proceedings of the 28th Annual Network and Distributed System Security Symposium (NDSS 2021)*
-&nbsp;&nbsp;[:octicons-link-16:](https://github.com/sslab-gatech/winnie)&nbsp;&nbsp;[:octicons-file-16:](/assets/pp/jung:winnie.pdf)&nbsp;&nbsp;[:material-presentation:](/assets/pp/jung:winnie-slides.pdf)&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} 
+&nbsp;&nbsp;[:octicons-link-16:](https://github.com/sslab-gatech/winnie)&nbsp;&nbsp;[:octicons-file-16:](/assets/pp/jung:winnie.pdf)&nbsp;&nbsp;[:material-presentation:](/assets/pp/jung:winnie-slides.pdf)&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} &nbsp;&nbsp;[:material-newspaper-variant-outline:](#){.psu-abs-button}
+
+    !!! Abstract
+
+        Fuzzing is an emerging technique to automatically validate programs and uncover bugs. It has been widely used to test many programs and has found thousands of security vulnerabilities. However, existing fuzzing efforts are mainly centered around Unix-like systems, as Windows imposes unique challenges for fuzzing: a closed-source ecosystem, the heavy use of graphical interfaces and the lack of fast process cloning machinery.
+        
+        In this paper, we propose two solutions to address the challenges Windows fuzzing faces. Our system, WINNIE, first tries to synthesize a harness for the application, a simple program that directly invokes target functions, based on sample executions. It then tests the harness, instead of the original complicated program, using an efficient implementation of fork on Windows. Using these techniques, WINNIE can bypass irrelevant GUI code to test logic deep within the application. We used WINNIE to fuzz 59 closed-source Windows executables, and it successfully generated valid fuzzing harnesses for all of them. In our evaluation, WINNIE can support 2.2× more programs than existing Windows fuzzers could, and identified 3.9× more program states and achieved 26.6× faster execution. In total, WINNIE found 61 unique bugs in 32 Windows executables.
+        
     
     !!! BibTeX
 
