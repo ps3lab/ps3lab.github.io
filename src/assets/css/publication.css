@@ -5,3 +5,17 @@
 .admonition.abstract {
     display: none ;    
 }
+
+
+
+.psu-pub-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.psu-pub-title a[href*="https://github.com/"] {
+    display:inline-flex;
+
+}

@@ -1,7 +1,7 @@
 
 ## 2022
 
-- ** FreeWill: Automatically Diagnosing Use-after-free Bugs via Reference Miscounting Detection on Binaries (To Appear) **
+- <div class="psu-pub-title"><strong>FreeWill: Automatically Diagnosing Use-after-free Bugs via Reference Miscounting Detection on Binaries (To Appear)</strong>  </div>
 
     Liang He, Hong Hu, Purui Su, Yan Cai and Zhenkai Liang
 
@@ -33,7 +33,7 @@
         ```
     
 
-- ** Cooper: Testing the Binding Code of Scripting Languages with Cooperative Mutation (To Appear) **
+- <div class="psu-pub-title"><strong>Cooper: Testing the Binding Code of Scripting Languages with Cooperative Mutation (To Appear)</strong> [![GitHub stars](https://img.shields.io/github/stars/TCA-ISCAS/Cooper.svg?style=social&label=Star&maxAge=2592000)](https://github.com/TCA-ISCAS/Cooper) </div>
 
     Peng Xu, Yanhao Wang, Hong Hu and Purui Su
 
@@ -67,7 +67,7 @@
         ```
     
 
-- ** Who Goes First? Detecting Go Concurrency Bugs via Message Reordering **
+- <div class="psu-pub-title"><strong>Who Goes First? Detecting Go Concurrency Bugs via Message Reordering</strong> [![GitHub stars](https://img.shields.io/github/stars/system-pclub/GFuzz.svg?style=social&label=Star&maxAge=2592000)](https://github.com/system-pclub/GFuzz) </div>
 
     Ziheng Liu, Shihao Xia, Yu Liang, Linhai Song and Hong Hu
 
@@ -111,7 +111,7 @@
     
 ## 2021
 
-- ** Identifying Behavior Dispatchers for Malware Analysis **
+- <div class="psu-pub-title"><strong>Identifying Behavior Dispatchers for Malware Analysis</strong> [![GitHub stars](https://img.shields.io/github/stars/kp2bit/bdhunter.svg?style=social&label=Star&maxAge=2592000)](https://github.com/kp2bit/bdhunter) </div>
 
     Kyuhong Park, Burak Sahin, Yongheng Chen, Jisheng Zhao, Evan Downing, Hong Hu and Wenke Lee
 
@@ -145,7 +145,7 @@
         ```
     
 
-- ** Sharing More and Checking Less: Leaveraging Common Input Keywords to Detect Bugs in Embedded Systems **
+- <div class="psu-pub-title"><strong>Sharing More and Checking Less: Leaveraging Common Input Keywords to Detect Bugs in Embedded Systems</strong> [![GitHub stars](https://img.shields.io/github/stars/NSSL-SJTU/SaTC.svg?style=social&label=Star&maxAge=2592000)](https://github.com/NSSL-SJTU/SaTC) </div>
 
     Libo Chen, Yanhao Wang, Quanpu Cai, Yunfan Zhan, Hong Hu, Jiaqi Linghu, Qinsheng Hou, Chao Zhang, Haixin Duan and Zhi Xue
 
@@ -179,7 +179,7 @@
         ```
     
 
-- ** Abusing Hidden Properties to Attack the Node.js Ecosystem **
+- <div class="psu-pub-title"><strong>Abusing Hidden Properties to Attack the Node.js Ecosystem</strong> [![GitHub stars](https://img.shields.io/github/stars/xiaofen9/Lynx.svg?style=social&label=Star&maxAge=2592000)](https://github.com/xiaofen9/Lynx) </div>
 
     Feng Xiao, Jianwei Huang, Yichang Xiong, Guangliang Yang, Hong Hu, Guofei Gu and Wenke Lee
 
@@ -213,7 +213,7 @@
         ```
     
 
-- ** Preventing Use-After-Free Attacks with Fast Forward Allocation **
+- <div class="psu-pub-title"><strong>Preventing Use-After-Free Attacks with Fast Forward Allocation</strong> [![GitHub stars](https://img.shields.io/github/stars/bwickman97/ffmalloc.svg?style=social&label=Star&maxAge=2592000)](https://github.com/bwickman97/ffmalloc) </div>
 
     Brian Wickman, Hong Hu, Insu Yun, Daehee Jang, JungWon Lim, Sanidhya Kashyap and Taesoo Kim
 
@@ -247,7 +247,7 @@
         ```
     
 
-- ** One Engine to Fuzz 'em All: Generic Language Processor Testing with Semantic Validation **
+- <div class="psu-pub-title"><strong>One Engine to Fuzz 'em All: Generic Language Processor Testing with Semantic Validation</strong> [![GitHub stars](https://img.shields.io/github/stars/s3team/Polyglot.svg?style=social&label=Star&maxAge=2592000)](https://github.com/s3team/Polyglot) </div>
 
     Yongheng Chen, Rui Zhong, Hong Hu, Hangfan Zhang, Yupeng Yang, Dinghao Wu and Wenke Lee
 
@@ -281,7 +281,7 @@
         ```
     
 
-- ** WINNIE: Fuzzing Windows Applications with Harness Synthesis and Fast Cloning **
+- <div class="psu-pub-title"><strong>WINNIE: Fuzzing Windows Applications with Harness Synthesis and Fast Cloning</strong> [![GitHub stars](https://img.shields.io/github/stars/sslab-gatech/winnie.svg?style=social&label=Star&maxAge=2592000)](https://github.com/sslab-gatech/winnie) </div>
 
     Jinho Jung, Stephen Tong, Hong Hu, Jungwon Lim, Yonghwi Jin and Taesoo Kim
 

@@ -68,8 +68,17 @@ def bib_to_str(e):
     db.entries = [copy_e]
     return writer.write(db)
 def bibentry_to_str(e):
+
+    github_star = ""
+    if "www-url" in e:
+        url = e["www-url"]
+        idx = url.find("https://github.com/")
+        if idx != -1:
+            name = url[len("https://github.com/"):]
+            github_star = f"[![GitHub stars](https://img.shields.io/github/stars/{name}.svg?style=social&label=Star&maxAge=2592000)]({url})"
+
     md = f"""
-- ** {resolve_bucket(e["title"])} **
+- <div class="psu-pub-title"><strong>{resolve_bucket(e["title"])}</strong> {github_star} </div>
 
     {format_author(e["author"])}
 
@@ -95,7 +104,9 @@ def bibentry_to_str(e):
     # abstract button
     if "abstract" in e:
         md += f"&nbsp;&nbsp;[:material-newspaper-variant-outline:](#){{.psu-abs-button}}"
-
+        
+            
+ 
     # check is abstract exist
     if "abstract" in e:
         abstract = e["abstract"]
