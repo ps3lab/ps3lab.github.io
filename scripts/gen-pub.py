@@ -4,6 +4,29 @@ import os
 import copy
 
 
+def get_month_number(month_string):
+
+    month_dict = {
+            "jan" : "01",
+            "feb" : "02",
+            "apr" : "04",
+            "may" : "05",
+            "jun" : "06",
+            "jul" : "07",
+            "aug" : "08",
+            "sep" : "09",
+            "oct" : "10",
+            "nov" : "11",
+            "dec" : "12",
+            }
+
+    key = month_string.strip()[:3].lower()
+
+    if key in month_dict:
+        return month_dict[key]
+    else:
+        return ""
+
 # FIXME: should we also sort by month?
 def get_md_by_sorted_bib(bib_file):
     parser = bibtexparser.bparser.BibTexParser(common_strings=True)
@@ -14,16 +37,21 @@ def get_md_by_sorted_bib(bib_file):
 
     for e in bibs.entries:
         year = e["year"]
-        # month = e["month"]
-        if year not in year_bib:
-            year_bib[year] = []
-            years.append(year)
-        year_bib[year].append(e)
+        month = e["month"]
+        year_month = year + get_month_number(month)
+        if year_month not in year_bib:
+            year_bib[year_month] = []
+            years.append(year_month)
+        year_bib[year_month].append(e)
 
     years = sorted(years, reverse=True)
     md_content = ""
+    last_year = "1990"
     for y in years:
-        md_content += f"\n## {y}"
+        real_year = y[:4]
+        if real_year != last_year:
+            md_content += f"\n## {real_year}"
+            last_year = real_year
         for bib in year_bib[y]:            
             md_content += "\n"
             md_content += bibentry_to_str(bib)

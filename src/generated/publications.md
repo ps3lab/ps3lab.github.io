@@ -40,6 +40,38 @@
         ```
     
 
+- <div class="psu-pub-title"><strong>Learning and Programming Challenges of Rust: A Mixed-Methods Study (To Appear)</strong>  </div>
+
+    Shuofei Zhu*, Ziyi Zhang*, Boqin Qin, Aiping Xiong and Linhai Song
+
+    In *Proceedings of the 44th International Conference on Software Engineering (ICSE 2022)*
+&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} 
+    
+    !!! BibTeX
+
+        ```
+        @inproceedings{zhu:icse,
+        
+         address = {Pittsburgh, PA},
+        
+         author = {Shuofei Zhu* and Ziyi Zhang* and Boqin Qin and Aiping Xiong and Linhai Song},
+        
+         booktitle = {Proceedings of the 44th International Conference on Software Engineering (ICSE 2022)},
+        
+         month = {May},
+        
+         title = {{Learning and Programming Challenges of Rust: A Mixed-Methods Study (To Appear)}},
+        
+         year = {2022}
+        
+        }
+        
+        
+        
+        
+        ```
+    
+
 - <div class="psu-pub-title"><strong>Cooper: Testing the Binding Code of Scripting Languages with Cooperative Mutation (To Appear)</strong> [![GitHub stars](https://img.shields.io/github/stars/TCA-ISCAS/Cooper.svg?style=social&label=Star&maxAge=2592000)](https://github.com/TCA-ISCAS/Cooper) </div>
 
     Peng Xu, Yanhao Wang, Hong Hu and Purui Su
@@ -70,6 +102,38 @@
          title = {{Cooper: Testing the Binding Code of Scripting Languages with Cooperative Mutation (To Appear)}},
         
          www-url = {https://github.com/TCA-ISCAS/Cooper},
+        
+         year = {2022}
+        
+        }
+        
+        
+        
+        
+        ```
+    
+
+- <div class="psu-pub-title"><strong>Beyond Bot Detection: Combating Fraudulent Online Survey Takers (To Appear)</strong>  </div>
+
+    Ziyi Zhang, Shuofei Zhu, Jaron Mink, Aiping Xiong, Linhai Song and Gang Wang
+
+    In *Proceedings of the ACM Web Conference 2022 (WWW 2022)*
+&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} 
+    
+    !!! BibTeX
+
+        ```
+        @inproceedings{zhang:www,
+        
+         address = {Lyon, France},
+        
+         author = {Ziyi Zhang and Shuofei Zhu and Jaron Mink and Aiping Xiong and Linhai Song and Gang Wang},
+        
+         booktitle = {Proceedings of the ACM Web Conference 2022 (WWW 2022)},
+        
+         month = {April},
+        
+         title = {{Beyond Bot Detection: Combating Fraudulent Online Survey Takers (To Appear)}},
         
          year = {2022}
         
@@ -123,112 +187,7 @@
         
         ```
     
-
-- <div class="psu-pub-title"><strong>Beyond Bot Detection: Combating Fraudulent Online Survey Takers (To Appear)</strong>  </div>
-
-    Ziyi Zhang, Shuofei Zhu, Jaron Mink, Aiping Xiong, Linhai Song and Gang Wang
-
-    In *Proceedings of the ACM Web Conference 2022 (WWW 2022)*
-&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} 
-    
-    !!! BibTeX
-
-        ```
-        @inproceedings{zhang:www,
-        
-         address = {Lyon, France},
-        
-         author = {Ziyi Zhang and Shuofei Zhu and Jaron Mink and Aiping Xiong and Linhai Song and Gang Wang},
-        
-         booktitle = {Proceedings of the ACM Web Conference 2022 (WWW 2022)},
-        
-         month = {April},
-        
-         title = {{Beyond Bot Detection: Combating Fraudulent Online Survey Takers (To Appear)}},
-        
-         year = {2022}
-        
-        }
-        
-        
-        
-        
-        ```
-    
-
-- <div class="psu-pub-title"><strong>Learning and Programming Challenges of Rust: A Mixed-Methods Study (To Appear)</strong>  </div>
-
-    Shuofei Zhu*, Ziyi Zhang*, Boqin Qin, Aiping Xiong and Linhai Song
-
-    In *Proceedings of the 44th International Conference on Software Engineering (ICSE 2022)*
-&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} 
-    
-    !!! BibTeX
-
-        ```
-        @inproceedings{zhu:icse,
-        
-         address = {Pittsburgh, PA},
-        
-         author = {Shuofei Zhu* and Ziyi Zhang* and Boqin Qin and Aiping Xiong and Linhai Song},
-        
-         booktitle = {Proceedings of the 44th International Conference on Software Engineering (ICSE 2022)},
-        
-         month = {May},
-        
-         title = {{Learning and Programming Challenges of Rust: A Mixed-Methods Study (To Appear)}},
-        
-         year = {2022}
-        
-        }
-        
-        
-        
-        
-        ```
-    
 ## 2021
-
-- <div class="psu-pub-title"><strong>Identifying Behavior Dispatchers for Malware Analysis</strong> [![GitHub stars](https://img.shields.io/github/stars/kp2bit/bdhunter.svg?style=social&label=Star&maxAge=2592000)](https://github.com/kp2bit/bdhunter) </div>
-
-    Kyuhong Park, Burak Sahin, Yongheng Chen, Jisheng Zhao, Evan Downing, Hong Hu and Wenke Lee
-
-    In *Proceedings of the 16th ACM ASIA Conference on Computer and Communications Security (AsiaCCS 2021)*
-&nbsp;&nbsp;[:octicons-link-16:](https://github.com/kp2bit/bdhunter)&nbsp;&nbsp;[:octicons-file-16:](/assets/pp/park:bdhunter.pdf)&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} &nbsp;&nbsp;[:material-newspaper-variant-outline:](#){.psu-abs-button}
-
-    !!! Abstract
-
-        Malware is a major threat to modern computer systems. Malicious behaviors are hidden by a variety of techniques: code obfuscation, message encoding and encryption, etc. Countermeasures have been developed to thwart these techniques in order to expose malicious behaviors. However, these countermeasures rely heavily on identifying specific API calls, which has significant limitations as these calls can be misleading or hidden from the analyst. In this paper, we show that malicious programs share a key component which we call a behavior dispatcher, a code structure which is intercepted between various condition checks and malicious actions. By identifying these behavior dispatchers, a malware analysis can be guided into behavior dispatchers and activate hidden malicious actions more easily.
-        
-        We propose BDHunter, a system that automatically identifies dispatchers to assist triggering malicious behaviors. BDHunter takes advantage of the observation that a dispatcher compares an input with a set of expected values to determine which malicious behaviors to execute next. We evaluate BDHunter on recent malware samples to identify behavior dispatchers and show that these dispatchers can help trigger more malicious behaviors (otherwise hidden). Our experimental results show that BDHunter identifies 77.4% of dispatchers within the top 20 candidates discovered. Furthermore, BDHunter-guided concolic execution successfully triggers 13.0× and 2.6× more malicious behaviors, compared to unguided symbolic and concolic execution, respectively. These demonstrate that BDHunter effectively identifies behavior dispatchers, which are useful for exposing malicious behaviors.
-        
-    
-    !!! BibTeX
-
-        ```
-        @inproceedings{park:bdhunter,
-        
-         address = {Hong Kong, China},
-        
-         author = {Kyuhong Park and Burak Sahin and Yongheng Chen and Jisheng Zhao and Evan Downing and Hong Hu and Wenke Lee},
-        
-         booktitle = {Proceedings of the 16th ACM ASIA Conference on Computer and Communications Security (AsiaCCS 2021)},
-        
-         month = {June},
-        
-         title = {{Identifying Behavior Dispatchers for Malware Analysis}},
-        
-         www-url = {https://github.com/kp2bit/bdhunter},
-        
-         year = {2021}
-        
-        }
-        
-        
-        
-        
-        ```
-    
 
 - <div class="psu-pub-title"><strong>Sharing More and Checking Less: Leaveraging Common Input Keywords to Detect Bugs in Embedded Systems</strong> [![GitHub stars](https://img.shields.io/github/stars/NSSL-SJTU/SaTC.svg?style=social&label=Star&maxAge=2592000)](https://github.com/NSSL-SJTU/SaTC) </div>
 
@@ -355,6 +314,47 @@
         ```
     
 
+- <div class="psu-pub-title"><strong>Identifying Behavior Dispatchers for Malware Analysis</strong> [![GitHub stars](https://img.shields.io/github/stars/kp2bit/bdhunter.svg?style=social&label=Star&maxAge=2592000)](https://github.com/kp2bit/bdhunter) </div>
+
+    Kyuhong Park, Burak Sahin, Yongheng Chen, Jisheng Zhao, Evan Downing, Hong Hu and Wenke Lee
+
+    In *Proceedings of the 16th ACM ASIA Conference on Computer and Communications Security (AsiaCCS 2021)*
+&nbsp;&nbsp;[:octicons-link-16:](https://github.com/kp2bit/bdhunter)&nbsp;&nbsp;[:octicons-file-16:](/assets/pp/park:bdhunter.pdf)&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} &nbsp;&nbsp;[:material-newspaper-variant-outline:](#){.psu-abs-button}
+
+    !!! Abstract
+
+        Malware is a major threat to modern computer systems. Malicious behaviors are hidden by a variety of techniques: code obfuscation, message encoding and encryption, etc. Countermeasures have been developed to thwart these techniques in order to expose malicious behaviors. However, these countermeasures rely heavily on identifying specific API calls, which has significant limitations as these calls can be misleading or hidden from the analyst. In this paper, we show that malicious programs share a key component which we call a behavior dispatcher, a code structure which is intercepted between various condition checks and malicious actions. By identifying these behavior dispatchers, a malware analysis can be guided into behavior dispatchers and activate hidden malicious actions more easily.
+        
+        We propose BDHunter, a system that automatically identifies dispatchers to assist triggering malicious behaviors. BDHunter takes advantage of the observation that a dispatcher compares an input with a set of expected values to determine which malicious behaviors to execute next. We evaluate BDHunter on recent malware samples to identify behavior dispatchers and show that these dispatchers can help trigger more malicious behaviors (otherwise hidden). Our experimental results show that BDHunter identifies 77.4% of dispatchers within the top 20 candidates discovered. Furthermore, BDHunter-guided concolic execution successfully triggers 13.0× and 2.6× more malicious behaviors, compared to unguided symbolic and concolic execution, respectively. These demonstrate that BDHunter effectively identifies behavior dispatchers, which are useful for exposing malicious behaviors.
+        
+    
+    !!! BibTeX
+
+        ```
+        @inproceedings{park:bdhunter,
+        
+         address = {Hong Kong, China},
+        
+         author = {Kyuhong Park and Burak Sahin and Yongheng Chen and Jisheng Zhao and Evan Downing and Hong Hu and Wenke Lee},
+        
+         booktitle = {Proceedings of the 16th ACM ASIA Conference on Computer and Communications Security (AsiaCCS 2021)},
+        
+         month = {June},
+        
+         title = {{Identifying Behavior Dispatchers for Malware Analysis}},
+        
+         www-url = {https://github.com/kp2bit/bdhunter},
+        
+         year = {2021}
+        
+        }
+        
+        
+        
+        
+        ```
+    
+
 - <div class="psu-pub-title"><strong>One Engine to Fuzz 'em All: Generic Language Processor Testing with Semantic Validation</strong> [![GitHub stars](https://img.shields.io/github/stars/s3team/Polyglot.svg?style=social&label=Star&maxAge=2592000)](https://github.com/s3team/Polyglot) </div>
 
     Yongheng Chen, Rui Zhong, Hong Hu, Hangfan Zhang, Yupeng Yang, Dinghao Wu and Wenke Lee
@@ -385,6 +385,45 @@
          title = {{One Engine to Fuzz 'em All: Generic Language Processor Testing with Semantic Validation}},
         
          www-url = {https://github.com/s3team/Polyglot},
+        
+         year = {2021}
+        
+        }
+        
+        
+        
+        
+        ```
+    
+
+- <div class="psu-pub-title"><strong>Automatically Detecting and Fixing Concurrency Bugs in Go Software Systems</strong> [![GitHub stars](https://img.shields.io/github/stars/system-pclub/GCatch.svg?style=social&label=Star&maxAge=2592000)](https://github.com/system-pclub/GCatch) </div>
+
+    Ziheng Liu, Shuofei Zhu, Boqin Qin, Hao Chen and Linhai Song
+
+    In *Proceedings of the 26th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2021)*
+&nbsp;&nbsp;[:octicons-link-16:](https://github.com/system-pclub/GCatch)&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} &nbsp;&nbsp;[:material-newspaper-variant-outline:](#){.psu-abs-button}
+
+    !!! Abstract
+
+        Go is a statically typed programming language designed for efficient and reliable concurrent programming. For this purpose, Go provides lightweight goroutines and recommends passing messages using channels as a less error-prone means of thread communication. Go has become increasingly popular in recent years and has been adopted to build many important infrastructure software systems. However, a recent empirical study shows that concurrency bugs, especially those due to misuse of channels, exist widely in Go. These bugs severely hurt the reliability of Go concurrent systems. To fight Go concurrency bugs caused by misuse of channels, this paper proposes a static concurrency bug detection system, GCatch, and an automated concurrency bug fixing system, GFix. After disentangling an input Go program, GCatch models the complex channel operations in Go using a novel constraint system and applies a constraint solver to identify blocking bugs. GFix automatically patches blocking bugs detected by GCatch using Go’s channel-related language features. We apply GCatch and GFix to 21 popular Go applications, including Docker, Kubernetes, and gRPC. In total, GCatch finds 149 previously unknown blocking bugs due to misuse of channels and GFix successfully fixes 124 of them. We have reported all detected bugs and generated patches to developers. So far, developers have fixed 125 blocking misuse-of-channel bugs based on our reporting. Among them, 87 bugs are fixed by applying GFix’s patches directly.
+        
+    
+    !!! BibTeX
+
+        ```
+        @inproceedings{liu:gcatch,
+        
+         address = {Virtual, USA},
+        
+         author = {Ziheng Liu and Shuofei Zhu and Boqin Qin and Hao Chen and Linhai Song},
+        
+         booktitle = {Proceedings of the 26th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2021)},
+        
+         month = {April},
+        
+         title = {Automatically Detecting and Fixing Concurrency Bugs in Go Software Systems},
+        
+         www-url = {https://github.com/system-pclub/GCatch},
         
          year = {2021}
         
@@ -436,85 +475,7 @@
         
         ```
     
-
-- <div class="psu-pub-title"><strong>Automatically Detecting and Fixing Concurrency Bugs in Go Software Systems</strong> [![GitHub stars](https://img.shields.io/github/stars/system-pclub/GCatch.svg?style=social&label=Star&maxAge=2592000)](https://github.com/system-pclub/GCatch) </div>
-
-    Ziheng Liu, Shuofei Zhu, Boqin Qin, Hao Chen and Linhai Song
-
-    In *Proceedings of the 26th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2021)*
-&nbsp;&nbsp;[:octicons-link-16:](https://github.com/system-pclub/GCatch)&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} &nbsp;&nbsp;[:material-newspaper-variant-outline:](#){.psu-abs-button}
-
-    !!! Abstract
-
-        Go is a statically typed programming language designed for efficient and reliable concurrent programming. For this purpose, Go provides lightweight goroutines and recommends passing messages using channels as a less error-prone means of thread communication. Go has become increasingly popular in recent years and has been adopted to build many important infrastructure software systems. However, a recent empirical study shows that concurrency bugs, especially those due to misuse of channels, exist widely in Go. These bugs severely hurt the reliability of Go concurrent systems. To fight Go concurrency bugs caused by misuse of channels, this paper proposes a static concurrency bug detection system, GCatch, and an automated concurrency bug fixing system, GFix. After disentangling an input Go program, GCatch models the complex channel operations in Go using a novel constraint system and applies a constraint solver to identify blocking bugs. GFix automatically patches blocking bugs detected by GCatch using Go’s channel-related language features. We apply GCatch and GFix to 21 popular Go applications, including Docker, Kubernetes, and gRPC. In total, GCatch finds 149 previously unknown blocking bugs due to misuse of channels and GFix successfully fixes 124 of them. We have reported all detected bugs and generated patches to developers. So far, developers have fixed 125 blocking misuse-of-channel bugs based on our reporting. Among them, 87 bugs are fixed by applying GFix’s patches directly.
-        
-    
-    !!! BibTeX
-
-        ```
-        @inproceedings{liu:gcatch,
-        
-         address = {Virtual, USA},
-        
-         author = {Ziheng Liu and Shuofei Zhu and Boqin Qin and Hao Chen and Linhai Song},
-        
-         booktitle = {Proceedings of the 26th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2021)},
-        
-         month = {April},
-        
-         title = {Automatically Detecting and Fixing Concurrency Bugs in Go Software Systems},
-        
-         www-url = {https://github.com/system-pclub/GCatch},
-        
-         year = {2021}
-        
-        }
-        
-        
-        
-        
-        ```
-    
 ## 2020
-
-- <div class="psu-pub-title"><strong>Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs</strong> [![GitHub stars](https://img.shields.io/github/stars/system-pclub/rust-study.svg?style=social&label=Star&maxAge=2592000)](https://github.com/system-pclub/rust-study) </div>
-
-    Boqin Qin*, Yilun Chen*, Zeming Yu, Linhai Song and Yiying Zhang
-
-    In *Proceedings of the 41st ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2020)*
-&nbsp;&nbsp;[:octicons-link-16:](https://github.com/system-pclub/rust-study)&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} &nbsp;&nbsp;[:material-newspaper-variant-outline:](#){.psu-abs-button}
-
-    !!! Abstract
-
-        Rust is a young programming language designed for systems software development. It aims to provide safety guarantees like high-level languages and performance efficiency like low-level languages. The core design of Rust is a set of strict safety rules enforced by compile-time checking. To support more low-level controls, Rust allows programmers to bypass these compiler checks to write unsafe code. It is important to understand what safety issues exist in real Rust programs and how Rust safety mechanisms impact programming practices. We performed the first empirical study of Rust by close, manual inspection of 850 unsafe code usages and 170 bugs in five open-source Rust projects, five widely-used Rust libraries, two online security databases, and the Rust standard library. Our study answers three important questions: how and why do programmers write unsafe code, what memory-safety issues real Rust programs have, and what concurrency bugs Rust programmers make. Our study reveals interesting real-world Rust program behaviors and new issues Rust programmers make. Based on our study results, we propose several directions of building Rust bug detectors and built two static bug detectors, both of which revealed previously unknown bugs.
-        
-    
-    !!! BibTeX
-
-        ```
-        @inproceedings{qin:rust-study,
-        
-         address = {London, UK},
-        
-         author = {Boqin Qin* and Yilun Chen* and Zeming Yu and Linhai Song and Yiying Zhang},
-        
-         booktitle = {Proceedings of the 41st ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2020)},
-        
-         month = {June},
-        
-         title = {Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs},
-        
-         www-url = {https://github.com/system-pclub/rust-study},
-        
-         year = {2020}
-        
-        }
-        
-        
-        
-        
-        ```
-    
 
 - <div class="psu-pub-title"><strong>Measuring and Modeling the Label Dynamics of Online Anti-Malware Engines</strong>  </div>
 
@@ -544,6 +505,45 @@
          title = {Measuring and Modeling the Label Dynamics of Online Anti-Malware Engines},
         
          www-url = {https://sfzhu93.github.io/projects/vt/index.html},
+        
+         year = {2020}
+        
+        }
+        
+        
+        
+        
+        ```
+    
+
+- <div class="psu-pub-title"><strong>Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs</strong> [![GitHub stars](https://img.shields.io/github/stars/system-pclub/rust-study.svg?style=social&label=Star&maxAge=2592000)](https://github.com/system-pclub/rust-study) </div>
+
+    Boqin Qin*, Yilun Chen*, Zeming Yu, Linhai Song and Yiying Zhang
+
+    In *Proceedings of the 41st ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2020)*
+&nbsp;&nbsp;[:octicons-link-16:](https://github.com/system-pclub/rust-study)&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} &nbsp;&nbsp;[:material-newspaper-variant-outline:](#){.psu-abs-button}
+
+    !!! Abstract
+
+        Rust is a young programming language designed for systems software development. It aims to provide safety guarantees like high-level languages and performance efficiency like low-level languages. The core design of Rust is a set of strict safety rules enforced by compile-time checking. To support more low-level controls, Rust allows programmers to bypass these compiler checks to write unsafe code. It is important to understand what safety issues exist in real Rust programs and how Rust safety mechanisms impact programming practices. We performed the first empirical study of Rust by close, manual inspection of 850 unsafe code usages and 170 bugs in five open-source Rust projects, five widely-used Rust libraries, two online security databases, and the Rust standard library. Our study answers three important questions: how and why do programmers write unsafe code, what memory-safety issues real Rust programs have, and what concurrency bugs Rust programmers make. Our study reveals interesting real-world Rust program behaviors and new issues Rust programmers make. Based on our study results, we propose several directions of building Rust bug detectors and built two static bug detectors, both of which revealed previously unknown bugs.
+        
+    
+    !!! BibTeX
+
+        ```
+        @inproceedings{qin:rust-study,
+        
+         address = {London, UK},
+        
+         author = {Boqin Qin* and Yilun Chen* and Zeming Yu and Linhai Song and Yiying Zhang},
+        
+         booktitle = {Proceedings of the 41st ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2020)},
+        
+         month = {June},
+        
+         title = {Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs},
+        
+         www-url = {https://github.com/system-pclub/rust-study},
         
          year = {2020}
         
