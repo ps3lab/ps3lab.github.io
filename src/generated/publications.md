@@ -593,12 +593,12 @@
         ```
     
 
-- <div class="psu-pub-title"><strong>Understanding Real-World Concurrency Bugs in Go</strong>  </div>
+- <div class="psu-pub-title"><strong>Understanding Real-World Concurrency Bugs in Go</strong> [![GitHub stars](https://img.shields.io/github/stars/system-pclub/go-concurrency-bugs.svg?style=social&label=Star&maxAge=2592000)](https://github.com/system-pclub/go-concurrency-bugs) </div>
 
     Tengfei Tu, Xiaoyu Liu, Linhai Song and Yiying Zhang
 
     In *Proceedings of the 24th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2019)*
-&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} &nbsp;&nbsp;[:material-newspaper-variant-outline:](#){.psu-abs-button}
+&nbsp;&nbsp;[:octicons-link-16:](https://github.com/system-pclub/go-concurrency-bugs)&nbsp;&nbsp;[:octicons-cross-reference-16:](#){.psu-ref-button} &nbsp;&nbsp;[:material-newspaper-variant-outline:](#){.psu-abs-button}
 
     !!! Abstract
 
@@ -619,6 +619,8 @@
          month = {April},
         
          title = {Understanding Real-World Concurrency Bugs in Go},
+        
+         www-url = {https://github.com/system-pclub/go-concurrency-bugs},
         
          year = {2019}
         
