@@ -10,6 +10,10 @@ export class PeoplePageComponent implements OnInit {
 
   people!: Person[];
 
+  groupsConfig = {
+    Alumni: "text-only"
+  }
+
   constructor() { }
 
   ngOnInit(): void {
