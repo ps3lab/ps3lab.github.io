@@ -109,7 +109,7 @@ export const PAPERS = [
             },
             {
                 "name": "Yongheng Chen",
-                "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Yongheng+Chen"
+                "link": "https://changochen.github.io/"
             },
             {
                 "name": "Jisheng Zhao",
@@ -284,7 +284,7 @@ export const PAPERS = [
         "authors": [
             {
                 "name": "Yongheng Chen",
-                "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Yongheng+Chen"
+                "link": "https://changochen.github.io/"
             },
             {
                 "name": "Rui Zhong",
@@ -628,8 +628,7 @@ export const PEOPLE = [
         "avatar": "/assets/default-user.png",
         "group": "Alumni",
         "desc": [
-            "2019-2021",
-            "PhD at UCSD"
+            "(PhD, 2019-2021) -> PhD at UCSD"
         ]
     },
     {
@@ -638,8 +637,7 @@ export const PEOPLE = [
         "avatar": "/assets/default-user.png",
         "group": "Alumni",
         "desc": [
-            "Visiting PhD from BUPT",
-            "China Telecom Cloud Computing"
+            "(Visiting PhD, 2018-2019) -> China Telecom Cloud Computing"
         ]
     },
     {
@@ -648,10 +646,6 @@ export const PEOPLE = [
         "avatar": "/assets/default-user.png",
         "group": "Alumni",
         "desc": [
-            "2019",
-            "Visiting Undergraduate from USTC",
-            "Undergraduate Silver Medalist",
-            "in SRC@SOSP'2019",
             "PhD at UW-Madison"
         ]
     },
@@ -661,8 +655,7 @@ export const PEOPLE = [
         "avatar": "/assets/default-user.png",
         "group": "Alumni",
         "desc": [
-            "2018-2019",
-            "Visiting PhD from BIT"
+            "(Visiting PhD, 2018-2019)"
         ]
     },
     {
@@ -671,18 +664,16 @@ export const PEOPLE = [
         "avatar": "/assets/default-user.png",
         "group": "Alumni",
         "desc": [
-            "2018-2019"
+            "(2018-2019)"
         ]
     },
     {
         "name": "Yongheng Chen",
-        "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Yongheng+Chen",
+        "link": "https://changochen.github.io/",
         "avatar": "/assets/default-user.png",
         "group": "Alumni",
         "desc": [
-            "2019",
-            "Visiting Undergraduate from NJU",
-            "PhD at Gatech"
+            "(Visiting Undergraduate, 2019) -> PhD at Gatech"
         ]
     },
     {
@@ -691,9 +682,7 @@ export const PEOPLE = [
         "avatar": "/assets/default-user.png",
         "group": "Alumni",
         "desc": [
-            "2017-2018",
-            "Visiting PhD from BUPT",
-            "Faculty at BUPT"
+            "(Visiting PhD, 2017-2018) -> Faculty at BUPT"
         ]
     }
 ]

@@ -29,51 +29,41 @@ people:
     avatar: /assets/default-user.png
     group: Alumni
     desc:
-      - 2019-2021
-      - PhD at UCSD
+      - (PhD, 2019-2021) -> PhD at UCSD
   - name: Boqin Qin
     link: https://burtonqin.github.io/
     avatar: /assets/default-user.png
     group: Alumni
     desc:
-      - Visiting PhD from BUPT
-      - China Telecom Cloud Computing
+      - (Visiting PhD, 2018-2019) -> China Telecom Cloud Computing
   - name: Ziyi Zhang
     link: 
     avatar: /assets/default-user.png
     group: Alumni
     desc:
-      - "2019"
-      - Visiting Undergraduate from USTC
-      - Undergraduate Silver Medalist
-      - in SRC@SOSP'2019
       - PhD at UW-Madison
   - name: Jianjun Shi
     link: 
     avatar: /assets/default-user.png
     group: Alumni
     desc:
-      - 2018-2019
-      - Visiting PhD from BIT
+      - (Visiting PhD, 2018-2019)
   - name: Zeming Yu
     link: 
     avatar: /assets/default-user.png
     group: Alumni
     desc:
-      - 2018-2019
+      - (2018-2019)
   - name: Yongheng Chen
-    link: 
+    link: https://changochen.github.io/
     avatar: /assets/default-user.png
     group: Alumni
     desc:
-      - "2019"
-      - "Visiting Undergraduate from NJU"
-      - "PhD at Gatech"
+      - (Visiting Undergraduate, 2019) -> PhD at Gatech
   - name: Tengfei Tu
     link: 
     avatar: /assets/default-user.png
     group: Alumni
     desc:
-      - 2017-2018
-      - Visiting PhD from BUPT
-      - Faculty at BUPT
+      - (Visiting PhD, 2017-2018) -> Faculty at BUPT
+
