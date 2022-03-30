@@ -1,0 +1,79 @@
+people:
+  - name: Linhai Song
+    link: https://songlh.github.io
+    avatar: /assets/song.png
+    group: Leaders
+    desc:
+  - name: Hong Hu
+    link: https://huhong789.github.io
+    avatar: https://huhong789.github.io/images/photo.jpg
+    group: Leaders
+    desc:
+  - name: Shuofei Zhu
+    link: https://personal.psu.edu/suz305
+    avatar: /assets/default-user.png
+    group: Graduate Students
+    desc:
+  - name: Yu Liang
+    link: https://steveleungyl.github.io/
+    avatar: /assets/default-user.png
+    group: Graduate Students
+    desc:
+  - name: Shihao Xia
+    link: https://charlesxsh.github.io/
+    avatar: /assets/default-user.png
+    group: Graduate Students
+    desc:
+  - name: Ziheng Liu
+    link: https://lzhfromustc.github.io/
+    avatar: /assets/default-user.png
+    group: Alumni
+    desc:
+      - 2019-2021
+      - PhD at UCSD
+  - name: Boqin Qin
+    link: https://burtonqin.github.io/
+    avatar: /assets/default-user.png
+    group: Alumni
+    desc:
+      - Visiting PhD from BUPT
+      - China Telecom Cloud Computing
+  - name: Ziyi Zhang
+    link: 
+    avatar: /assets/default-user.png
+    group: Alumni
+    desc:
+      - "2019"
+      - Visiting Undergraduate from USTC
+      - Undergraduate Silver Medalist
+      - in SRC@SOSP'2019
+      - PhD at UW-Madison
+  - name: Jianjun Shi
+    link: 
+    avatar: /assets/default-user.png
+    group: Alumni
+    desc:
+      - 2018-2019
+      - Visiting PhD from BIT
+  - name: Zeming Yu
+    link: 
+    avatar: /assets/default-user.png
+    group: Alumni
+    desc:
+      - 2018-2019
+  - name: Yongheng Chen
+    link: 
+    avatar: /assets/default-user.png
+    group: Alumni
+    desc:
+      - "2019"
+      - "Visiting Undergraduate from NJU"
+      - "PhD at Gatech"
+  - name: Tengfei Tu
+    link: 
+    avatar: /assets/default-user.png
+    group: Alumni
+    desc:
+      - 2017-2018
+      - Visiting PhD from BUPT
+      - Faculty at BUPT

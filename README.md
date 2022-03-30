@@ -1,33 +1,27 @@
-# PSU Security Lab's Website
+# Ps3lab
 
-## Dev Workflow
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
-!!! Do not manually update any files under src/generated/*
+## Development server
 
-### 0. Prerequistes
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-- Python 3.x
+## Code scaffolding
 
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-### 1. Install dependencies
-```bash
-$ pip3 install -r requirements.txt
-```
+## Build
 
-### 2. Run website locally and update content (src/*.md)
-```bash
-$ mkdocs serve
-```
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-### 3. Build
+## Running unit tests
 
-```bash
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-# required only if you update the *.bib file
-$ ./scripts/gen-pub.py
+## Running end-to-end tests
 
-# always required
-$ ./build.sh
-```
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-### 4. Git commit & push
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

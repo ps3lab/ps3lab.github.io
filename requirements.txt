@@ -1,2 +1,0 @@
-mkdocs-material==8.2.5
-bibtexparser==1.2.0
