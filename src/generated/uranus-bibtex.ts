@@ -583,6 +583,84 @@ export const PAPERS = [
         "month": "April",
         "year": "2019",
         "bibtex": "@inproceedings{tu:go-study,\n address = {Providence, RI},\n author = {Tengfei Tu and Xiaoyu Liu and Linhai Song and Yiying Zhang},\n booktitle = {Proceedings of the 24th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2019)},\n month = {April},\n title = {Understanding Real-World Concurrency Bugs in Go},\n year = {2019}\n}\n\n"
+    },
+    {
+        "name": "Detecting Logical Bugs of DBMS with Coverage-based Guidance (To Appear)",
+        "authors": [
+            {
+                "name": "Yu Liang",
+                "link": "https://steveleungyl.github.io/"
+            },
+            {
+                "name": "Song Liu",
+                "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Song+Liu"
+            },
+            {
+                "name": "Hong Hu",
+                "link": "https://huhong789.github.io"
+            }
+        ],
+        "authorExtra": "",
+        "publicAt": "Proceedings of the 31st USENIX Security Symposium (USENIX 2022)",
+        "abstract": "Database management system (DBMS) is a critical component of modern data-intensive applications. Developers adopt many testing techniques to detect and fix DBMS bugs such as crashes and assertion failures. However, most of the previous efforts cannot detect logical bugs that render the DBMS returns incorrect results. Recent work proposed several oracles to identify incorrect results, but they rely on rule-based expression generation to synthesize queries without any guidance. In this paper, we propose to combine coverage-based guidance, validity-oriented mutations and oracles to detect logical bugs for DBMS systems. To achieve our goal, we first design a set of general APIs to decouple the logic of fuzzers and oracles, so that developers can easily port fuzzing tools to test DBMSs and write new oracles for existing fuzzers. We further provide validity-oriented mutations to generate high-quality query statements so as to find more logical bugs. Our prototype, SQLRight, outperforms existing tools that only rely on oracles or code coverage. It in total detects 18 logical bugs from three well-tested DBMSs, SQLite, PostgreSQL and MySQL. At the time of paper writing, all bugs have been confirmed and 13 of them are fixed.",
+        "month": "aug",
+        "year": "2022",
+        "bibtex": "@inproceedings{liang:sqlright,\n address = {Boston, MA},\n author = {Yu Liang and Song Liu and Hong Hu},\n booktitle = {Proceedings of the 31st USENIX Security Symposium (USENIX 2022)},\n month = {aug},\n title = {{Detecting Logical Bugs of DBMS with Coverage-based Guidance (To Appear)}},\n year = {2022}\n}\n\n"
+    },
+    {
+        "name": "SFuzz: Slice-based Fuzzing for Real-Time Operating Systems (To Appear)",
+        "authors": [
+            {
+                "name": "Libo Chen",
+                "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Libo+Chen"
+            },
+            {
+                "name": "Quanpu Cai",
+                "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Quanpu+Cai"
+            },
+            {
+                "name": "Zhenbang Ma",
+                "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Zhenbang+Ma"
+            },
+            {
+                "name": "Yanhao Wang",
+                "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Yanhao+Wang"
+            },
+            {
+                "name": "Hong Hu",
+                "link": "https://huhong789.github.io"
+            },
+            {
+                "name": "Minghang Shen",
+                "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Minghang+Shen"
+            },
+            {
+                "name": "Yue Liu",
+                "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Yue+Liu"
+            },
+            {
+                "name": "Shanqing Guo",
+                "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Shanqing+Guo"
+            },
+            {
+                "name": "Haixin Duan",
+                "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Haixin+Duan"
+            },
+            {
+                "name": "Kaida Jiang",
+                "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Kaida+Jiang"
+            },
+            {
+                "name": "Zhi Xue",
+                "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Zhi+Xue"
+            }
+        ],
+        "authorExtra": "",
+        "publicAt": "Proceedings of the 29th ACM Conference on Computer and Communications Security (CCS 2022)",
+        "abstract": "Real-Time Operating System (RTOS) has become the main category of embedded systems. It is widely used to support tasks requiring real-time response such as printers and switches. The security of RTOS has been long overlooked as it was running in special environments isolated from attackers. However, with the rapid development of IoT devices, tremendous RTOS devices are connected to the public network. Due to the lack of security mechanisms, these devices are extremely vulnerable to a wide spectrum of attacks. Even worse, the monolithic design of RTOS combines various tasks and services into a single binary, which hinders the current program testing and analysis techniques working on RTOS systems. In this paper, we propose SFuzz, a novel slice-based fuzzer, to detect security vulnerabilities in RTOS systems. Our insight is that RTOS usually divides a complicated binary into many separated but single-minded tasks. Each task accomplishes a particular event in a deterministic way and its control flow is usually straightforward and independent. Therefore, we identify such code from the monolithic RTOS binary and synthesize a slice for effective testing. Specifically, SFuzz first identifies functions that handle user input, constructs call graphs that start from callers of these functions, and leverages forward slicing to build the execution tree based on the call graphs and pruning the paths independent of external inputs. Then, it detects roadblocks within the coarse-grain scope that hinders effective fuzzing, such as instructions unrelated to the user input. And then, it conducts coverage-guided fuzzing on these code snippets. Finally, SFuzz leverages forward and backward slicing to track and verify each path constraint and determine whether a bug discovered in the fuzzer is a real vulnerability. We applied SFuzz on 35 RTOS samples. SFuzz successfully discovered 77 zero-day bugs, and 67 of them have been assigned CVE or CNVD IDs. Our empirical evaluation shows that SFuzz outperforms the state-of-the-art tools (e.g., UnicornAFL) on testing RTOS.",
+        "month": "nov",
+        "year": "2022",
+        "bibtex": "@inproceedings{chen:sfuzz,\n address = {Los Angeles, CA},\n author = {Libo Chen and Quanpu Cai and Zhenbang Ma and Yanhao Wang and Hong Hu and Minghang Shen and Yue Liu and Shanqing Guo and Haixin Duan and Kaida Jiang and Zhi Xue},\n booktitle = {Proceedings of the 29th ACM Conference on Computer and Communications Security (CCS 2022)},\n month = {nov},\n title = {{SFuzz: Slice-based Fuzzing for Real-Time Operating Systems (To Appear)}},\n year = {2022}\n}\n\n"
     }
 ]
 

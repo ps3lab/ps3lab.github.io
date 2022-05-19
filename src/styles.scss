@@ -31,6 +31,17 @@ $app-theme: mat.define-light-theme((
   )
 ));
 
+// Get color param from our theme
+$palette-color : map-get($app-theme, color);
+// Get background param from color param
+$background: map-get($palette-color, background);
+// $background also has background param contains color, set it to red (for example)
+$background: map_merge($background, (background: white));
+// Set background param for palette
+$palette-color: map_merge($palette-color, (background: $background));
+// Set palette for theme
+$app-theme: map_merge($app-theme, (color: $palette-color));
+
 // Include theme styles for core and each component used in your app.
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
