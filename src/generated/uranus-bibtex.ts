@@ -701,6 +701,27 @@ export const PEOPLE = [
         "desc": null
     },
     {
+        "name": "Hengkai Ye",
+        "link": "https://hengkai-ye.github.io/",
+        "avatar": "/assets/hengkai.jpg",
+        "group": "Graduate Students",
+        "desc": null
+    },
+    {
+        "name": "Song Liu",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Song+Liu",
+        "avatar": "/assets/default-user.png",
+        "group": "Graduate Students",
+        "desc": null
+    },
+    {
+        "name": "Shuangpeng Bai",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Shuangpeng+Bai",
+        "avatar": "/assets/default-user.png",
+        "group": "Graduate Students",
+        "desc": null
+    },
+    {
         "name": "Ziheng Liu",
         "link": "https://lzhfromustc.github.io/",
         "avatar": "/assets/default-user.png",

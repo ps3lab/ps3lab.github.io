@@ -24,6 +24,21 @@ people:
     avatar: /assets/default-user.png
     group: Graduate Students
     desc:
+  - name: Hengkai Ye
+    link: https://hengkai-ye.github.io/
+    avatar: /assets/hengkai.jpg
+    group: Graduate Students
+    desc:
+  - name: Song Liu
+    link:
+    avatar: /assets/default-user.png
+    group: Graduate Students
+    desc:
+  - name: Shuangpeng Bai
+    link: 
+    avatar: /assets/default-user.png
+    group: Graduate Students
+    desc:
   - name: Ziheng Liu
     link: https://lzhfromustc.github.io/
     avatar: /assets/default-user.png
