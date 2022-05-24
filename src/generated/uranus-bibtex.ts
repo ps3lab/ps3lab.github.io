@@ -32,7 +32,7 @@ export const PAPERS = [
         "bibtex": "@inproceedings{he:freewill,\n address = {Boston, MA},\n author = {Liang He and Hong Hu and Purui Su and Yan Cai and Zhenkai Liang},\n booktitle = {Proceedings of the 31st USENIX Security Symposium (USENIX 2022)},\n month = {August},\n title = {{FreeWill: Automatically Diagnosing Use-after-free Bugs via Reference Miscounting Detection on Binaries (To Appear)}},\n year = {2022}\n}\n\n"
     },
     {
-        "name": "Cooper: Testing the Binding Code of Scripting Languages with Cooperative Mutation (To Appear)",
+        "name": "Cooper: Testing the Binding Code of Scripting Languages with Cooperative Mutation",
         "authors": [
             {
                 "name": "Peng Xu",
@@ -59,7 +59,7 @@ export const PAPERS = [
         "year": "2022",
         "githubLink": "https://github.com/TCA-ISCAS/Cooper",
         "githubStarsSvgLink": "https://img.shields.io/github/stars/TCA-ISCAS/Cooper.svg?style=social&label=Star&maxAge=2592000",
-        "bibtex": "@inproceedings{xu:cooper,\n address = {San Diego, CA},\n author = {Peng Xu and Yanhao Wang and Hong Hu and Purui Su},\n booktitle = {Proceedings of the 29th Annual Network and Distributed System Security Symposium (NDSS 2022)},\n month = {April},\n title = {{Cooper: Testing the Binding Code of Scripting Languages with Cooperative Mutation (To Appear)}},\n www-url = {https://github.com/TCA-ISCAS/Cooper},\n year = {2022}\n}\n\n"
+        "bibtex": "@inproceedings{xu:cooper,\n address = {San Diego, CA},\n author = {Peng Xu and Yanhao Wang and Hong Hu and Purui Su},\n booktitle = {Proceedings of the 29th Annual Network and Distributed System Security Symposium (NDSS 2022)},\n month = {April},\n title = {{Cooper: Testing the Binding Code of Scripting Languages with Cooperative Mutation}},\n www-url = {https://github.com/TCA-ISCAS/Cooper},\n year = {2022}\n}\n\n"
     },
     {
         "name": "Who Goes First? Detecting Go Concurrency Bugs via Message Reordering",
@@ -361,7 +361,7 @@ export const PAPERS = [
         "bibtex": "@inproceedings{jung:winnie,\n address = {Virtual},\n author = {Jinho Jung and Stephen Tong and Hong Hu and Jungwon Lim and Yonghwi Jin and Taesoo Kim},\n booktitle = {Proceedings of the 28th Annual Network and Distributed System Security Symposium (NDSS 2021)},\n month = {February},\n title = {{WINNIE: Fuzzing Windows Applications with Harness Synthesis and Fast Cloning}},\n www-url = {https://github.com/sslab-gatech/winnie},\n year = {2021}\n}\n\n"
     },
     {
-        "name": "Beyond Bot Detection: Combating Fraudulent Online Survey Takers (To Appear)",
+        "name": "Beyond Bot Detection: Combating Fraudulent Online Survey Takers",
         "authors": [
             {
                 "name": "Ziyi Zhang",
@@ -392,7 +392,7 @@ export const PAPERS = [
         "publicAt": "Proceedings of the ACM Web Conference 2022 (WWW 2022)",
         "month": "April",
         "year": "2022",
-        "bibtex": "@inproceedings{zhang:www,\n address = {Lyon, France},\n author = {Ziyi Zhang and Shuofei Zhu and Jaron Mink and Aiping Xiong and Linhai Song and Gang Wang},\n booktitle = {Proceedings of the ACM Web Conference 2022 (WWW 2022)},\n month = {April},\n title = {{Beyond Bot Detection: Combating Fraudulent Online Survey Takers (To Appear)}},\n year = {2022}\n}\n\n"
+        "bibtex": "@inproceedings{zhang:www,\n address = {Lyon, France},\n author = {Ziyi Zhang and Shuofei Zhu and Jaron Mink and Aiping Xiong and Linhai Song and Gang Wang},\n booktitle = {Proceedings of the ACM Web Conference 2022 (WWW 2022)},\n month = {April},\n title = {{Beyond Bot Detection: Combating Fraudulent Online Survey Takers}},\n year = {2022}\n}\n\n"
     },
     {
         "name": "Learning and Programming Challenges of Rust: A Mixed-Methods Study (To Appear)",
@@ -689,7 +689,7 @@ export const PEOPLE = [
     {
         "name": "Yu Liang",
         "link": "https://steveleungyl.github.io/",
-        "avatar": "/assets/default-user.png",
+        "avatar": "/assets/yu.jpg",
         "group": "Graduate Students",
         "desc": null
     },
