@@ -593,7 +593,7 @@ export const PAPERS = [
             },
             {
                 "name": "Song Liu",
-                "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Song+Liu"
+                "link": "https://vancir.github.io/"
             },
             {
                 "name": "Hong Hu",
@@ -709,8 +709,8 @@ export const PEOPLE = [
     },
     {
         "name": "Song Liu",
-        "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Song+Liu",
-        "avatar": "/assets/default-user.png",
+        "link": "https://vancir.github.io/",
+        "avatar": "/assets/song.jpg",
         "group": "Graduate Students",
         "desc": null
     },

@@ -30,8 +30,8 @@ people:
     group: Graduate Students
     desc:
   - name: Song Liu
-    link:
-    avatar: /assets/default-user.png
+    link: https://vancir.github.io/
+    avatar: /assets/song.jpg
     group: Graduate Students
     desc:
   - name: Shuangpeng Bai
