@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavbarItem } from '@theogonic/uranus';
+import { NavbarItem } from './uranus/components/navbar/navbar-item';
 
 @Component({
   selector: 'app-root',
@@ -8,10 +8,6 @@ import { NavbarItem } from '@theogonic/uranus';
 })
 export class AppComponent {
   navItems: NavbarItem[] = [
-    {
-      name: "Home",
-      link: ""
-    },
     {
       name: "People",
       link: "people"

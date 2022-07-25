@@ -1,9 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 
+
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
 @use '@angular/material' as mat;
-@use '@theogonic/uranus/theming' as uranus;
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 // Plus imports for other components in your app.
 
@@ -46,18 +50,8 @@ $app-theme: map_merge($app-theme, (color: $palette-color));
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
 @include mat.all-component-themes($app-theme);
-@include uranus.theme($app-theme);
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body { min-height: 100%; }
 
-.container {
-  padding: 0 1rem 1rem 1rem;
-}
-@media only screen and (min-width: 960px){
-  .container {
-      width: 50%;
-      margin: auto;
-  }
-}
+

@@ -4,12 +4,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { UranusModule } from "@theogonic/uranus";
 import { PeoplePageComponent } from './pages/people-page/people-page.component';
 import { PublicationsPageComponent } from './pages/publications-page/publications-page.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { FundingsPageComponent } from './pages/fundings-page/fundings-page.component';
 import {MatCardModule} from '@angular/material/card';
+import { UranusModule } from './uranus/uranus.module';
 
 @NgModule({
   declarations: [

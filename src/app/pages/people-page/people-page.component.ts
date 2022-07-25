@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { PEOPLE } from "src/generated/uranus-bibtex"
-import { Person } from '@theogonic/uranus';
+import { Person } from 'src/app/uranus/components/person/person';
+import { PEOPLE } from "src/generated/uranus-bibtex";
+
 @Component({
   selector: 'app-people-page',
   templateUrl: './people-page.component.html',
