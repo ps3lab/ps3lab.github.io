@@ -1,6 +1,6 @@
 <div *ngIf="groupPeople | async as gp">
     <div *ngFor="let item of gp">
-      <h2>{{ item.group }}</h2>
+      <h2 class="text-2xl my-4">{{ item.group }}</h2>
       <ng-container [ngSwitch]="groupsConfig[item.group]">
         <ng-container *ngSwitchCase="'text-only'">
           <mat-nav-list>

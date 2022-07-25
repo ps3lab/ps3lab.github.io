@@ -1,13 +1,6 @@
-npx uranus-bibtex \
+./scripts/uranus-bibtex.py \
 publications.bib src/generated/uranus-bibtex.ts \
 --out-format ts \
 --bib-assets-dir src/assets/bibtex \
 --bib-assets-url-prefix /assets/bibtex \
 --people people.yaml
-
-# ../uranus/projects/uranus/scripts/uranus-bibtex.py \
-# publications.bib src/generated/uranus-bibtex.ts \
-# --out-format ts \
-# --bib-assets-dir src/assets/bibtex \
-# --bib-assets-url-prefix /assets/bibtex \
-# --people people.yaml

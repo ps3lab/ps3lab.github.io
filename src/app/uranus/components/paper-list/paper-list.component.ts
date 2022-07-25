@@ -80,7 +80,7 @@ export class PaperListComponent implements OnInit, OnChanges {
 
   ngOnInit(): void {
     this.filtersForm = this.initFiltersForm(this.fb);
-    this.filteredPapers = combineLatest([this.allPapers, this.filtersForm.valueChanges.pipe(startWith({}), debounceTime(400)) ])
+    this.filteredPapers = combineLatest([this.allPapers, this.filtersForm.valueChanges.pipe(startWith({})) ])
     .pipe(
       map(([papers, filters])=>{
         return this.filterPapers(papers, filters)
