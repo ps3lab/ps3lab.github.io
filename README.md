@@ -6,7 +6,7 @@
 
 ### Install Dependencies
 ```
-$ npm install
+$ npm install // Make sure to rerun it if package.json updated.
 ```
 
 ## Dev
