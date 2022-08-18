@@ -1,33 +1,29 @@
-# PSU Security Lab's Website
-
-## Dev Workflow
-
-!!! Do not manually update any files under src/generated/*
-
-### 0. Prerequistes
-
-- Python 3.x
 
 
-### 1. Install dependencies
-```bash
-$ pip3 install -r requirements.txt
+## Prerequisite
+- Node.js
+- Python 3
+
+### Install Dependencies
+```
+$ npm install // Make sure to rerun it if package.json updated.
 ```
 
-### 2. Run website locally and update content (src/*.md)
+## Dev
+This command will start a development server that serve website at localhost:4200
 ```bash
-$ mkdocs serve
+// Make sure the data is generated from bib and yaml
+$ ./generate.sh
+
+// Start development server to serve website
+$ npm start
 ```
 
-### 3. Build
+## publications.bib
+If this file changed, run `./generate.sh` to update/generate corresponding changes.
 
-```bash
-
-# required only if you update the *.bib file
-$ ./scripts/gen-pub.py
-
-# always required
+## Build
+This command is to generate final static website to docs folder
+```
 $ ./build.sh
 ```
-
-### 4. Git commit & push

@@ -1,0 +1,89 @@
+people:
+  - name: Linhai Song
+    link: https://songlh.github.io
+    avatar: /assets/song.png
+    group: Leaders
+    desc:
+  - name: Hong Hu
+    link: https://huhong789.github.io
+    avatar: https://huhong789.github.io/images/photo.jpg
+    group: Leaders
+    desc:
+  - name: Shuofei Zhu
+    link: https://personal.psu.edu/suz305
+    avatar: /assets/default-user.png
+    group: Graduate Students
+    desc:
+  - name: Yu Liang
+    link: https://steveleungyl.github.io/
+    avatar: /assets/yu.jpg
+    group: Graduate Students
+    desc:
+  - name: Shihao Xia
+    link: https://charlesxsh.github.io/
+    avatar: /assets/default-user.png
+    group: Graduate Students
+    desc:
+  - name: Hengkai Ye
+    link: https://hengkai-ye.github.io/
+    avatar: /assets/hengkai.jpg
+    group: Graduate Students
+    desc:
+  - name: Song Liu
+    link: https://vancir.github.io/
+    avatar: /assets/song.jpg
+    group: Graduate Students
+    desc:
+  - name: Shuangpeng Bai
+    link: 
+    avatar: /assets/default-user.png
+    group: Graduate Students
+    desc:
+  - name: Mengting He
+    link:
+    avatar: /assets/default-user.png
+    desc:
+    group: Graduate Students
+  - name: Ziheng Liu
+    link: https://lzhfromustc.github.io/
+    avatar: /assets/default-user.png
+    group: Alumni
+    desc:
+      - (PhD, 2019-2021) -> PhD at UCSD
+  - name: Boqin Qin
+    link: https://burtonqin.github.io/
+    avatar: /assets/default-user.png
+    group: Alumni
+    desc:
+      - (Visiting PhD, 2018-2019) -> China Telecom Cloud Computing
+  - name: Ziyi Zhang
+    link: 
+    avatar: /assets/default-user.png
+    group: Alumni
+    desc:
+      - PhD at UW-Madison
+  - name: Jianjun Shi
+    link: 
+    avatar: /assets/default-user.png
+    group: Alumni
+    desc:
+      - (Visiting PhD, 2018-2019)
+  - name: Zeming Yu
+    link: 
+    avatar: /assets/default-user.png
+    group: Alumni
+    desc:
+      - (2018-2019)
+  - name: Yongheng Chen
+    link: https://changochen.github.io/
+    avatar: /assets/default-user.png
+    group: Alumni
+    desc:
+      - (Visiting Undergraduate, 2019) -> PhD at Gatech
+  - name: Tengfei Tu
+    link: 
+    avatar: /assets/default-user.png
+    group: Alumni
+    desc:
+      - (Visiting PhD, 2017-2018) -> Faculty at BUPT
+
