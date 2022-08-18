@@ -582,7 +582,9 @@ export const PAPERS = [
         "abstract": "Go is a statically-typed programming language that aims to provide a simple, efficient, and safe way to build multi-threaded software. Since its creation in 2009, Go has matured and gained significant adoption in production and open-source software. Go advocates for the usage of message passing as the means of inter-thread communication and provides several new concurrency mechanisms and libraries to ease multi-threading programming. It is important to understand the implication of these new proposals and the comparison of message passing and shared memory synchronization in terms of program errors, or bugs. Unfortunately, as far as we know, there has been no study on Go's concurrency bugs. In this paper, we perform the first systematic study on concurrency bugs in real Go programs. We studied six popular Go software including Docker, Kubernetes, and gRPC. We analyzed 171 concurrency bugs in total, with more than half of them caused by non-traditional, Go-specific problems. Apart from root causes of these bugs, we also studied their fixes, performed experiments to reproduce them, and evaluated them with two publicly-available Go bug detectors. Overall, our study provides a better understanding on Go's concurrency models and can guide future researchers and practitioners in writing better, more reliable Go software and in developing debugging and diagnosis tools for Go.",
         "month": "April",
         "year": "2019",
-        "bibtex": "@inproceedings{tu:go-study,\n address = {Providence, RI},\n author = {Tengfei Tu and Xiaoyu Liu and Linhai Song and Yiying Zhang},\n booktitle = {Proceedings of the 24th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2019)},\n month = {April},\n title = {Understanding Real-World Concurrency Bugs in Go},\n year = {2019}\n}\n\n"
+        "githubLink": "https://github.com/system-pclub/go-concurrency-bugs",
+        "githubStarsSvgLink": "https://img.shields.io/github/stars/system-pclub/go-concurrency-bugs.svg?style=social&label=Star&maxAge=2592000",
+        "bibtex": "@inproceedings{tu:go-study,\n address = {Providence, RI},\n author = {Tengfei Tu and Xiaoyu Liu and Linhai Song and Yiying Zhang},\n booktitle = {Proceedings of the 24th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2019)},\n month = {April},\n title = {Understanding Real-World Concurrency Bugs in Go},\n www-url = {https://github.com/system-pclub/go-concurrency-bugs},\n year = {2019}\n}\n\n"
     },
     {
         "name": "Detecting Logical Bugs of DBMS with Coverage-based Guidance (To Appear)",
@@ -716,14 +718,14 @@ export const PEOPLE = [
     },
     {
         "name": "Shuangpeng Bai",
-        "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Shuangpeng+Bai",
+        "link": null,
         "avatar": "/assets/default-user.png",
         "group": "Graduate Students",
         "desc": null
     },
     {
         "name": "Mengting He",
-        "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Mengting+He",
+        "link": null,
         "avatar": "/assets/default-user.png",
         "desc": null,
         "group": "Graduate Students"
@@ -748,7 +750,7 @@ export const PEOPLE = [
     },
     {
         "name": "Ziyi Zhang",
-        "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Ziyi+Zhang",
+        "link": null,
         "avatar": "/assets/default-user.png",
         "group": "Alumni",
         "desc": [
@@ -757,7 +759,7 @@ export const PEOPLE = [
     },
     {
         "name": "Jianjun Shi",
-        "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Jianjun+Shi",
+        "link": null,
         "avatar": "/assets/default-user.png",
         "group": "Alumni",
         "desc": [
@@ -766,7 +768,7 @@ export const PEOPLE = [
     },
     {
         "name": "Zeming Yu",
-        "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Zeming+Yu",
+        "link": null,
         "avatar": "/assets/default-user.png",
         "group": "Alumni",
         "desc": [
@@ -784,7 +786,7 @@ export const PEOPLE = [
     },
     {
         "name": "Tengfei Tu",
-        "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Tengfei+Tu",
+        "link": null,
         "avatar": "/assets/default-user.png",
         "group": "Alumni",
         "desc": [

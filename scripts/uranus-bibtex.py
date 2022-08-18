@@ -177,7 +177,9 @@ def main():
     people_data = None
     if people_yaml_file:
         people_data = load_people_from_yaml(people_yaml_file)
-        fill_link_for_people(people_data)
+        # Do not automatically fill link (from google scholar) to people
+        # fill_link_for_people(people_data)
+
     fill_link_for_paper_authors(uranus_dicts, people_data)
 
     
