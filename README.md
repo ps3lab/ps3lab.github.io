@@ -11,7 +11,11 @@ $ npm install // Make sure to rerun it if package.json updated.
 
 ## Dev
 This command will start a development server that serve website at localhost:4200
-```
+```bash
+// Make sure the data is generated from bib and yaml
+$ ./generate.sh
+
+// Start development server to serve website
 $ npm start
 ```
 

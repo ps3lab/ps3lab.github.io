@@ -39,6 +39,11 @@ people:
     avatar: /assets/default-user.png
     group: Graduate Students
     desc:
+  - name: Mengting He
+    link:
+    avatar: /assets/default-user.png
+    desc:
+    group: Graduate Students
   - name: Ziheng Liu
     link: https://lzhfromustc.github.io/
     avatar: /assets/default-user.png

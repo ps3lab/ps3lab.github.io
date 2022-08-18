@@ -722,6 +722,13 @@ export const PEOPLE = [
         "desc": null
     },
     {
+        "name": "Mengting He",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Mengting+He",
+        "avatar": "/assets/default-user.png",
+        "desc": null,
+        "group": "Graduate Students"
+    },
+    {
         "name": "Ziheng Liu",
         "link": "https://lzhfromustc.github.io/",
         "avatar": "/assets/default-user.png",
