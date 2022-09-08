@@ -1,5 +1,31 @@
 export const PAPERS = [
     {
+        "name": "Generic Go to Go: Dictionary-Passing, Monomorphisation, and Hybrid",
+        "authors": [
+            {
+                "name": " Stephen Ellis",
+                "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=+Stephen+Ellis"
+            },
+            {
+                "name": "Shuofei Zhu",
+                "link": "https://personal.psu.edu/suz305"
+            },
+            {
+                "name": "Nobuko Yoshida",
+                "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Nobuko+Yoshida"
+            },
+            {
+                "name": "Linhai Song ",
+                "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Linhai+Song+"
+            }
+        ],
+        "authorExtra": "",
+        "publicAt": "The ACM SIGPLAN conference on Systems, Programming, Languages, and Applications: Software for Humanity (OOPSLA'2022)",
+        "month": "December",
+        "year": "2022",
+        "bibtex": "@inproceedings{ellis2022generic,\n author = { Stephen Ellis and Shuofei Zhu and Nobuko Yoshida and Linhai Song },\n booktitle = {The ACM SIGPLAN conference on Systems, Programming, Languages, and Applications: Software for Humanity (OOPSLA'2022)},\n month = {December},\n title = {Generic Go to Go: Dictionary-Passing, Monomorphisation, and Hybrid},\n year = {2022}\n}\n\n"
+    },
+    {
         "name": "FreeWill: Automatically Diagnosing Use-after-free Bugs via Reference Miscounting Detection on Binaries (To Appear)",
         "authors": [
             {
@@ -390,6 +416,7 @@ export const PAPERS = [
         ],
         "authorExtra": "",
         "publicAt": "Proceedings of the ACM Web Conference 2022 (WWW 2022)",
+        "paperLink": "/assets/bibtex/zhang:www.pdf",
         "month": "April",
         "year": "2022",
         "bibtex": "@inproceedings{zhang:www,\n address = {Lyon, France},\n author = {Ziyi Zhang and Shuofei Zhu and Jaron Mink and Aiping Xiong and Linhai Song and Gang Wang},\n booktitle = {Proceedings of the ACM Web Conference 2022 (WWW 2022)},\n month = {April},\n title = {{Beyond Bot Detection: Combating Fraudulent Online Survey Takers}},\n year = {2022}\n}\n\n"
@@ -420,6 +447,7 @@ export const PAPERS = [
         ],
         "authorExtra": "",
         "publicAt": "Proceedings of the 44th International Conference on Software Engineering (ICSE 2022)",
+        "paperLink": "/assets/bibtex/zhu:icse.pdf",
         "month": "May",
         "year": "2022",
         "bibtex": "@inproceedings{zhu:icse,\n address = {Pittsburgh, PA},\n author = {Shuofei Zhu* and Ziyi Zhang* and Boqin Qin and Aiping Xiong and Linhai Song},\n booktitle = {Proceedings of the 44th International Conference on Software Engineering (ICSE 2022)},\n month = {May},\n title = {{Learning and Programming Challenges of Rust: A Mixed-Methods Study (To Appear)}},\n year = {2022}\n}\n\n"
@@ -525,6 +553,7 @@ export const PAPERS = [
         "authorExtra": "",
         "publicAt": "Proceedings of the 29th USENIX Conference on Security Symposium (USENIX 2020)",
         "abstract": "VirusTotal provides malware labels from a large set of anti-malware engines, and is heavily used by researchers for malware annotation and system evaluation. Since different engines often disagree with each other, researchers have used various methods to aggregate their labels. In this paper, we take a data-driven approach to categorize, reason, and validate common labeling methods used by researchers. We first survey 115 academic papers that use VirusTotal, and identify common methodologies. Then we collect the daily snapshots of VirusTotal labels for more than 14,000 files (including a subset of manually verified ground-truth) from 65 VirusTotal engines over a year. Our analysis validates the benefits of threshold-based label aggregation in stabilizing files' labels, and also points out the impact of poorly-chosen thresholds. We show that hand-picked \"trusted\" engines do not always perform well, and certain groups of engines are strongly correlated and should not be treated independently. Finally, we empirically show certain engines fail to perform in-depth analysis on submitted files and can easily produce false positives. Based on our findings, we offer suggestions for future usage of VirusTotal for data annotation.",
+        "paperLink": "/assets/bibtex/zhu:usenix.pdf",
         "month": "August",
         "year": "2020",
         "githubLink": "https://sfzhu93.github.io/projects/vt",
