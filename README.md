@@ -7,6 +7,7 @@
 ### Install Dependencies
 ```
 $ npm install // Make sure to rerun it if package.json updated.
+$ pip3 install -r scripts/requirements.txt // Install deps for python script
 ```
 
 ## Dev

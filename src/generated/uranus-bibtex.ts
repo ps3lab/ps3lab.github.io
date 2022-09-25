@@ -21,12 +21,13 @@ export const PAPERS = [
         ],
         "authorExtra": "",
         "publicAt": "The ACM SIGPLAN conference on Systems, Programming, Languages, and Applications: Software for Humanity (OOPSLA'2022)",
+        "paperLink": "/assets/bibtex/ellis2022generic.pdf",
         "month": "December",
         "year": "2022",
         "bibtex": "@inproceedings{ellis2022generic,\n author = { Stephen Ellis and Shuofei Zhu and Nobuko Yoshida and Linhai Song },\n booktitle = {The ACM SIGPLAN conference on Systems, Programming, Languages, and Applications: Software for Humanity (OOPSLA'2022)},\n month = {December},\n title = {Generic Go to Go: Dictionary-Passing, Monomorphisation, and Hybrid},\n year = {2022}\n}\n\n"
     },
     {
-        "name": "FreeWill: Automatically Diagnosing Use-after-free Bugs via Reference Miscounting Detection on Binaries (To Appear)",
+        "name": "FreeWill: Automatically Diagnosing Use-after-free Bugs via Reference Miscounting Detection on Binaries",
         "authors": [
             {
                 "name": "Liang He",
@@ -55,7 +56,7 @@ export const PAPERS = [
         "paperLink": "/assets/bibtex/he:freewill.pdf",
         "month": "August",
         "year": "2022",
-        "bibtex": "@inproceedings{he:freewill,\n address = {Boston, MA},\n author = {Liang He and Hong Hu and Purui Su and Yan Cai and Zhenkai Liang},\n booktitle = {Proceedings of the 31st USENIX Security Symposium (USENIX 2022)},\n month = {August},\n title = {{FreeWill: Automatically Diagnosing Use-after-free Bugs via Reference Miscounting Detection on Binaries (To Appear)}},\n year = {2022}\n}\n\n"
+        "bibtex": "@inproceedings{he:freewill,\n address = {Boston, MA},\n author = {Liang He and Hong Hu and Purui Su and Yan Cai and Zhenkai Liang},\n booktitle = {Proceedings of the 31st USENIX Security Symposium (USENIX 2022)},\n month = {August},\n title = {{FreeWill: Automatically Diagnosing Use-after-free Bugs via Reference Miscounting Detection on Binaries}},\n year = {2022}\n}\n\n"
     },
     {
         "name": "Cooper: Testing the Binding Code of Scripting Languages with Cooperative Mutation",
@@ -616,7 +617,7 @@ export const PAPERS = [
         "bibtex": "@inproceedings{tu:go-study,\n address = {Providence, RI},\n author = {Tengfei Tu and Xiaoyu Liu and Linhai Song and Yiying Zhang},\n booktitle = {Proceedings of the 24th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2019)},\n month = {April},\n title = {Understanding Real-World Concurrency Bugs in Go},\n www-url = {https://github.com/system-pclub/go-concurrency-bugs},\n year = {2019}\n}\n\n"
     },
     {
-        "name": "Detecting Logical Bugs of DBMS with Coverage-based Guidance (To Appear)",
+        "name": "Detecting Logical Bugs of DBMS with Coverage-based Guidance",
         "authors": [
             {
                 "name": "Yu Liang",
@@ -636,7 +637,7 @@ export const PAPERS = [
         "abstract": "Database management system (DBMS) is a critical component of modern data-intensive applications. Developers adopt many testing techniques to detect and fix DBMS bugs such as crashes and assertion failures. However, most of the previous efforts cannot detect logical bugs that render the DBMS returns incorrect results. Recent work proposed several oracles to identify incorrect results, but they rely on rule-based expression generation to synthesize queries without any guidance. In this paper, we propose to combine coverage-based guidance, validity-oriented mutations and oracles to detect logical bugs for DBMS systems. To achieve our goal, we first design a set of general APIs to decouple the logic of fuzzers and oracles, so that developers can easily port fuzzing tools to test DBMSs and write new oracles for existing fuzzers. We further provide validity-oriented mutations to generate high-quality query statements so as to find more logical bugs. Our prototype, SQLRight, outperforms existing tools that only rely on oracles or code coverage. It in total detects 18 logical bugs from three well-tested DBMSs, SQLite, PostgreSQL and MySQL. At the time of paper writing, all bugs have been confirmed and 13 of them are fixed.",
         "month": "aug",
         "year": "2022",
-        "bibtex": "@inproceedings{liang:sqlright,\n address = {Boston, MA},\n author = {Yu Liang and Song Liu and Hong Hu},\n booktitle = {Proceedings of the 31st USENIX Security Symposium (USENIX 2022)},\n month = {aug},\n title = {{Detecting Logical Bugs of DBMS with Coverage-based Guidance (To Appear)}},\n year = {2022}\n}\n\n"
+        "bibtex": "@inproceedings{liang:sqlright,\n address = {Boston, MA},\n author = {Yu Liang and Song Liu and Hong Hu},\n booktitle = {Proceedings of the 31st USENIX Security Symposium (USENIX 2022)},\n month = {aug},\n title = {{Detecting Logical Bugs of DBMS with Coverage-based Guidance}},\n year = {2022}\n}\n\n"
     },
     {
         "name": "SFuzz: Slice-based Fuzzing for Real-Time Operating Systems (To Appear)",
