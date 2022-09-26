@@ -44,6 +44,11 @@ people:
     avatar: /assets/default-user.png
     desc:
     group: Graduate Students
+  - name: Tiffany Marie Amigon
+    link:
+    avatar: /assets/default-user.png
+    desc:
+    group: Graduate Students
   - name: Ziheng Liu
     link: https://lzhfromustc.github.io/
     avatar: /assets/default-user.png
