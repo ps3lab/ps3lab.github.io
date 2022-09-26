@@ -761,6 +761,13 @@ export const PEOPLE = [
         "group": "Graduate Students"
     },
     {
+        "name": "Tiffany Marie Amigon",
+        "link": null,
+        "avatar": "/assets/default-user.png",
+        "desc": null,
+        "group": "Graduate Students"
+    },
+    {
         "name": "Ziheng Liu",
         "link": "https://lzhfromustc.github.io/",
         "avatar": "/assets/default-user.png",

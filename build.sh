@@ -4,7 +4,7 @@
 ./generate.sh
 
 # build the static website to docs folder
-npx ng build --outputPath=docs
+npx ng build --output-path=docs
 
 # this is needed for static serving Angular based project
 cp docs/index.html docs/404.html

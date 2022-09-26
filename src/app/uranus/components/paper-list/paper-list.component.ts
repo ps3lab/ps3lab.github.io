@@ -1,6 +1,6 @@
 import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
-import { BehaviorSubject, combineLatest, empty, merge, Observable, of, Subject, Subscription } from 'rxjs';
+import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
+import { BehaviorSubject, combineLatest, merge, Observable, of, Subject, Subscription } from 'rxjs';
 import { debounceTime, map, startWith, tap } from 'rxjs/operators';
 import { authorExistInPaper, getAuthorsInStringArr, Paper } from '../paper/paper';
 import { PaperMode } from '../paper/paper.component';
@@ -29,6 +29,12 @@ const month2Num: {
     "":13
 }
 
+interface FiltersFrom {
+  authors: FormControl<string | null>
+  years: FormControl<string | null>,
+  searchStr: FormControl<string| null>
+}
+
 @Component({
   selector: 'uranus-paper-list',
   templateUrl: './paper-list.component.html',
@@ -42,7 +48,7 @@ export class PaperListComponent implements OnInit, OnChanges {
   @Input()
   mode:PaperMode = "card";
 
-  filtersForm!: FormGroup;
+  filtersForm!: FormGroup<FiltersFrom>;
   allPapers!: BehaviorSubject<Paper[]>;
   filteredPapers!: Observable<PapersByYear[]>;
   filterAuthorSub?: Subscription ;
@@ -185,16 +191,16 @@ export class PaperListComponent implements OnInit, OnChanges {
   }
 
 
-  initFiltersForm(fb: FormBuilder):FormGroup{
+  initFiltersForm(fb: FormBuilder):FormGroup<FiltersFrom>{
     return fb.group({
-      authors: [],
-      years: [],
-      searchStr: []
+      authors: [''],
+      years: [''],
+      searchStr: ['']
     });
   }
 
   restoreFilters(){
-    this.filtersForm.setValue({authors:"", years:"", searchStr:""})
+    this.filtersForm.setValue({authors:null, years:null, searchStr:null})
   }
 
   
